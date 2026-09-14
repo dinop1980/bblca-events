@@ -4,18 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:683c1396-0c1a-5e2e-874c-c97855d37126
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260913T150000Z
-DTEND:20260913T210000Z
-SUMMARY:Recreation Center Building Hours
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:eeca79c1-359c-538b-9c76-9c38e2a2b040
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z
