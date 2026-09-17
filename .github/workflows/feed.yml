@@ -6,7 +6,7 @@ on:
     - cron: '17 */6 * * *'
 
 concurrency:
-  group: bblca-events-feed
+  group: bblca-events-rss
   cancel-in-progress: false
 
 permissions:
@@ -25,37 +25,56 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Sync with latest repository changes
-        run: git pull --rebase origin main
-
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.13'
 
-      - name: Update BBLCA calendar feeds
-        run: python make_feed.py
-
-      - name: Add landing page
+      - name: Generate and save updated events
+        shell: bash
         run: |
-          mkdir -p docs
-          if [ -f index.html ]; then
-            cp index.html docs/index.html
-          fi
+          set -e
 
-      - name: Save updated events
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add docs/feed.xml docs/events.ics docs/index.html state.json
+          for attempt in 1 2 3 4 5; do
+            echo "Update attempt $attempt"
 
-          if git diff --staged --quiet; then
-            echo "No calendar changes to save."
-          else
+            # Begin each attempt with the latest version of main.
+            git fetch origin main
+            git checkout -B main origin/main
+
+            # Generate the newest BBLCA feeds.
+            python make_feed.py
+
+            # Prepare the GitHub Pages folder.
+            mkdir -p docs
+            if [ -f index.html ]; then
+              cp index.html docs/index.html
+            fi
+
+            git add docs/feed.xml docs/events.ics docs/index.html state.json
+
+            # Continue to deployment when nothing changed.
+            if git diff --staged --quiet; then
+              echo "The calendar is already current."
+              exit 0
+            fi
+
             git commit -m "Update BBLCA events"
-            git push origin main
-          fi
+
+            # Finish if the push succeeds.
+            if git push origin main; then
+              echo "Calendar update saved successfully."
+              exit 0
+            fi
+
+            echo "Another run updated the repository. Retrying..."
+          done
+
+          echo "Unable to save after five attempts."
+          exit 1
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
