@@ -76,6 +76,15 @@ jobs:
           echo "Unable to save after five attempts."
           exit 1
 
+      - name: Add successful refresh time to published page
+        shell: bash
+        run: |
+          set -e
+          refreshed_at=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          grep -q "__LAST_UPDATED_UTC__" docs/index.html
+          sed -i "s/__LAST_UPDATED_UTC__/$refreshed_at/g" docs/index.html
+          grep -q "$refreshed_at" docs/index.html
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
