@@ -79,7 +79,10 @@
     document.querySelector("#last-updated small").textContent =
       "Refresh time is temporarily unavailable.";
   } else {
-    refreshTime.textContent = refreshedAt.toLocaleString();
+    refreshTime.textContent = refreshedAt.toLocaleString("en-US", {
+      timeZone: "America/New_York",
+      timeZoneName: "short",
+    });
   }
 </script>
 </html>
