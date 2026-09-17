@@ -43,7 +43,10 @@
   </ul>
 
   <p id="last-updated" aria-live="polite">
-    <small>Refresh time is temporarily unavailable.</small>
+    <small>
+      Calendar last successfully refreshed:
+      <time id="last-updated-time" datetime="__LAST_UPDATED_UTC__">__LAST_UPDATED_UTC__</time>
+    </small>
   </p>
 
   <p>
@@ -69,25 +72,14 @@
 </main>
 
 <script>
-  const refreshTime = document.querySelector("#last-updated small");
+  const refreshTime = document.querySelector("#last-updated-time");
+  const refreshedAt = new Date(refreshTime.dateTime);
 
-  fetch(`last-updated.txt?${Date.now()}`, { cache: "no-store" })
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Refresh time could not be loaded.");
-      }
-      return response.text();
-    })
-    .then((timestamp) => {
-      const refreshedAt = new Date(timestamp.trim());
-      if (Number.isNaN(refreshedAt.getTime())) {
-        throw new Error("Invalid refresh time.");
-      }
-      refreshTime.textContent =
-        `Calendar last successfully refreshed: ${refreshedAt.toLocaleString()}`;
-    })
-    .catch(() => {
-      refreshTime.textContent = "Refresh time is temporarily unavailable.";
-    });
+  if (Number.isNaN(refreshedAt.getTime())) {
+    document.querySelector("#last-updated small").textContent =
+      "Refresh time is temporarily unavailable.";
+  } else {
+    refreshTime.textContent = refreshedAt.toLocaleString();
+  }
 </script>
 </html>
