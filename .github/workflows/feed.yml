@@ -76,6 +76,10 @@ jobs:
           echo "Unable to save after five attempts."
           exit 1
 
+      - name: Record successful refresh time
+        shell: bash
+        run: date -u +"%Y-%m-%dT%H:%M:%SZ" > docs/last-updated.txt
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 

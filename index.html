@@ -42,6 +42,14 @@
     <li><a href="feed.xml">Follow with an RSS reader</a></li>
   </ul>
 
+  <p id="last-updated" aria-live="polite">
+    <small>Refresh time is temporarily unavailable.</small>
+  </p>
+
+  <p>
+    <small>The public BBLCA calendar is checked automatically every six hours.</small>
+  </p>
+
   <p>
     <small>
       This independent mirror shows events currently visible on the
@@ -59,4 +67,27 @@
     </p>
   </footer>
 </main>
+
+<script>
+  const refreshTime = document.querySelector("#last-updated small");
+
+  fetch(`last-updated.txt?${Date.now()}`, { cache: "no-store" })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Refresh time could not be loaded.");
+      }
+      return response.text();
+    })
+    .then((timestamp) => {
+      const refreshedAt = new Date(timestamp.trim());
+      if (Number.isNaN(refreshedAt.getTime())) {
+        throw new Error("Invalid refresh time.");
+      }
+      refreshTime.textContent =
+        `Calendar last successfully refreshed: ${refreshedAt.toLocaleString()}`;
+    })
+    .catch(() => {
+      refreshTime.textContent = "Refresh time is temporarily unavailable.";
+    });
+</script>
 </html>
