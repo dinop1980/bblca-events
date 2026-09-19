@@ -28,18 +28,6 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
-UID:urn:uuid:52004bfa-5335-5e7e-8cd0-5d66e8510f0e
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260919T140000Z
-DTEND:20260919T150000Z
-SUMMARY:Water Aerobics
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:241da710-7be4-5991-820b-82258f929673
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z
