@@ -6,9 +6,11 @@ import hashlib
 import html
 import json
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 from uuid import NAMESPACE_URL, uuid5
 from xml.etree import ElementTree as ET
@@ -16,6 +18,9 @@ from zoneinfo import ZoneInfo
 
 
 CALENDAR_URL = "https://bblca.cincwebaxis.com/bblca/calendar/"
+FETCH_ATTEMPTS = 6
+FETCH_RETRY_SECONDS = 10 * 60
+RETRYABLE_HTTP_STATUS = {404, 408, 429}
 EASTERN = ZoneInfo("America/New_York")
 APPOINTMENT = re.compile(
     r'this\.AddAppointment\("(?P<id>[^"\r\n]+)"\s*,\s*'
@@ -24,6 +29,47 @@ APPOINTMENT = re.compile(
     r'"(?P<title>(?:\\.|[^"\\])*)"',
 )
 JS_ESCAPE = re.compile(r"\\(u[0-9a-fA-F]{4}|x[0-9a-fA-F]{2}|.)", re.DOTALL)
+
+
+def fetch_calendar_page(
+    url=CALENDAR_URL,
+    attempts=FETCH_ATTEMPTS,
+    retry_seconds=FETCH_RETRY_SECONDS,
+    opener=urlopen,
+    sleeper=time.sleep,
+):
+    """Fetch the public calendar, retrying temporary availability failures."""
+    if attempts < 1:
+        raise ValueError("attempts must be at least 1")
+
+    request = Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; BBLCAEventsRSS/1.0)"
+    })
+    for attempt in range(1, attempts + 1):
+        try:
+            with opener(request, timeout=35) as response:
+                return response.read().decode("utf-8")
+        except HTTPError as error:
+            retryable = (
+                error.code in RETRYABLE_HTTP_STATUS
+                or 500 <= error.code <= 599
+            )
+            if not retryable or attempt == attempts:
+                raise
+            failure = f"HTTP {error.code}: {error.reason}"
+        except (URLError, TimeoutError, ConnectionError) as error:
+            if attempt == attempts:
+                raise
+            failure = str(getattr(error, "reason", error))
+
+        print(
+            f"Calendar request failed ({failure}) on attempt {attempt}/{attempts}; "
+            f"retrying in {retry_seconds // 60} minutes...",
+            flush=True,
+        )
+        sleeper(retry_seconds)
+
+    raise RuntimeError("Calendar fetch retry loop ended unexpectedly")
 
 
 def decode_js_string(value):
@@ -201,11 +247,7 @@ def main():
     if args.input:
         page = args.input.read_text(encoding="utf-8")
     else:
-        request = Request(CALENDAR_URL, headers={
-            "User-Agent": "Mozilla/5.0 (compatible; BBLCAEventsRSS/1.0)"
-        })
-        with urlopen(request, timeout=35) as response:
-            page = response.read().decode("utf-8")
+        page = fetch_calendar_page()
 
     events = parse_events(page)
     exclusions = tuple(term.casefold() for term in args.exclude_title)
