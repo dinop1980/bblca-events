@@ -4,42 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:3df4bf8e-8b81-5de2-9d2d-e3aa3800c79f
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260923T163000Z
-DTEND:20260923T180000Z
-SUMMARY:BBLCA Yarners Group
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:6c9b867a-e9dd-5e75-8a9a-e20bd42b6cf2
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260923T170000Z
-DTEND:20260923T190000Z
-SUMMARY:Mahjong Group
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:57ca2507-6026-5086-9c8e-19be3b5cb433
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260923T170000Z
-DTEND:20260923T180000Z
-SUMMARY:Art Workshop
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:27dcf23d-ce63-59b9-b7dc-d9385bcfcb04
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z
