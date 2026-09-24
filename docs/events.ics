@@ -4,30 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:6b6fe854-dd6c-571e-92be-9a93003fb3f4
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260924T130000Z
-DTEND:20260924T140000Z
-SUMMARY:Stretch & Walk Exercise by Video
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:ca7b1029-2c9b-56d3-9327-05baf5cfc37f
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260924T140000Z
-DTEND:20260924T150000Z
-SUMMARY:Line Dancing
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:1e9f20ec-e4b6-5c28-9970-7bab0b0ddd05
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z
