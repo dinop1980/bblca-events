@@ -4,30 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:1e9f20ec-e4b6-5c28-9970-7bab0b0ddd05
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260925T210000Z
-DTEND:20260926T000000Z
-SUMMARY:Recreation Center Building Hours
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:7b690cd6-c499-500c-8508-c2d7efcafc16
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260925T210000Z
-DTEND:20260925T234500Z
-SUMMARY:Open Swim
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:98d84d37-d839-5358-9e82-f5ca2e646aff
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z
