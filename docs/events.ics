@@ -4,42 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:b49ec88d-cd4a-523f-9627-2a8b728c29e5
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260930T163000Z
-DTEND:20260930T180000Z
-SUMMARY:BBLCA Yarners Group
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:e4490ed0-f44c-561c-bf53-4d2f3b55014d
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260930T170000Z
-DTEND:20260930T190000Z
-SUMMARY:Mahjong Group
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:21e913e2-16b8-53e4-953e-84186b77d6ab
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260930T170000Z
-DTEND:20260930T180000Z
-SUMMARY:Art Workshop
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:8475536f-f82f-574c-8627-35896b05c107
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z
@@ -47,18 +11,6 @@ SEQUENCE:0
 DTSTART:20260930T210000Z
 DTEND:20261001T000000Z
 SUMMARY:Recreation Center Building Hours
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:5544388b-cd5d-5f1a-8d93-17ed2363c8d3
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260930T210000Z
-DTEND:20260930T220000Z
-SUMMARY:Water Aerobics
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
