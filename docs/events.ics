@@ -4,25 +4,13 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:f52072ff-a678-5fe4-85e9-9f3d3155c4c4
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
+UID:urn:uuid:a1aeaac0-1a63-57a3-9435-ac670598854d
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
 SEQUENCE:0
-DTSTART:20261001T130000Z
-DTEND:20261001T140000Z
-SUMMARY:Stretch & Walk Exercise by Video
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:4da9bb6b-1a97-5173-a15d-80c8810b0a9a
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20261001T140000Z
-DTEND:20261001T150000Z
-SUMMARY:Line Dancing
+DTSTART:20261001T223000Z
+DTEND:20261001T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee Meeting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
@@ -47,6 +35,18 @@ SEQUENCE:0
 DTSTART:20261002T210000Z
 DTEND:20261002T234500Z
 SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:03244032-0e30-5fc4-8c74-4449b33596e4
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261003T130000Z
+DTEND:20261003T140000Z
+SUMMARY:ARC Committee Meeting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
@@ -208,6 +208,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:242b2816-87dd-51a4-84fd-8048b4d29550
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261007T230000Z
+DTEND:20261008T000000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:0850d470-f7b7-5e90-a04b-001ede10b1bb
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z
@@ -256,6 +268,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:3a11e795-3aec-5bec-87e2-0ee5cf594a4c
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261010T130000Z
+DTEND:20261010T140000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:f9507926-1b0c-53f5-8713-4a84e140be77
 DTSTAMP:20260929T221450Z
 LAST-MODIFIED:20260929T221450Z
@@ -287,6 +311,18 @@ SEQUENCE:1
 DTSTART:20261010T150000Z
 DTEND:20261010T204500Z
 SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:08a9de13-59dc-5180-94b1-a751086e237c
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261010T150000Z
+DTEND:20261010T160000Z
+SUMMARY:ELM Committee Meeting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
@@ -436,6 +472,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:4952cc21-a164-52cd-b1b4-387552c2a3b6
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261014T230000Z
+DTEND:20261015T000000Z
+SUMMARY:Rental Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:a0dd27cd-0bff-58b7-821a-e1d10b7e20df
 DTSTAMP:20261001T055253Z
 LAST-MODIFIED:20261001T055253Z
@@ -455,6 +503,18 @@ SEQUENCE:0
 DTSTART:20261015T140000Z
 DTEND:20261015T150000Z
 SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:cd9c0bc8-7821-5352-a4b7-852e8dc8939e
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261015T223000Z
+DTEND:20261015T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee Meeting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
@@ -575,6 +635,18 @@ SEQUENCE:0
 DTSTART:20261019T140000Z
 DTEND:20261019T150000Z
 SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:1730fe22-02d4-5a45-9bcf-f71f6d1bda5b
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261020T180000Z
+DTEND:20261020T200000Z
+SUMMARY:Book Club Meeting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
@@ -707,6 +779,30 @@ SEQUENCE:0
 DTSTART:20261023T210000Z
 DTEND:20261024T010000Z
 SUMMARY:Halloween Pre Party
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:3d8e7bf5-2a03-5821-8f7e-577d9ee9137a
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261024T124500Z
+DTEND:20261024T160000Z
+SUMMARY:Violations Review Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:d7d8e2c9-57b6-5870-852d-d287e74843a7
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261024T130000Z
+DTEND:20261024T140000Z
+SUMMARY:Fiscal Committee Meeting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
@@ -916,6 +1012,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:423107b6-1747-5ff8-bb0b-b73b441f3fe4
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261029T223000Z
+DTEND:20261029T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:880c9dab-2176-547c-9540-44091b3f4ff9
 DTSTAMP:20261001T055253Z
 LAST-MODIFIED:20261001T055253Z
@@ -935,6 +1043,18 @@ SEQUENCE:0
 DTSTART:20261030T210000Z
 DTEND:20261030T234500Z
 SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:1a9c3ea1-ff5f-5cec-963e-401c849d82fa
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261031T130000Z
+DTEND:20261031T150000Z
+SUMMARY:Town Hall
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
@@ -1096,6 +1216,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:b0719567-2a37-5de3-a679-50776e334979
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261105T000000Z
+DTEND:20261105T010000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:de847b63-0ec5-5895-a0e7-a0b2e0646eb7
 DTSTAMP:20261001T055253Z
 LAST-MODIFIED:20261001T055253Z
@@ -1120,6 +1252,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:637b182a-e6cc-5b61-9231-660af228e46d
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261106T000000Z
+DTEND:20261106T010000Z
+SUMMARY:Rental Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:04811e53-a3ec-5302-8bfd-df37b0de1215
 DTSTAMP:20261001T055253Z
 LAST-MODIFIED:20261001T055253Z
@@ -1139,6 +1283,30 @@ SEQUENCE:0
 DTSTART:20261106T220000Z
 DTEND:20261107T004500Z
 SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a4628c17-ddd0-52cf-9db3-d12925a635c1
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261107T140000Z
+DTEND:20261107T150000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:f421941e-c602-5475-afe6-0930a56f9023
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261107T140000Z
+DTEND:20261107T150000Z
+SUMMARY:CFC Committee Meeting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
@@ -1175,6 +1343,18 @@ SEQUENCE:0
 DTSTART:20261107T160000Z
 DTEND:20261107T214500Z
 SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:acd24d21-8dd2-5785-9d7c-d4c7e0f716d5
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261107T160000Z
+DTEND:20261107T170000Z
+SUMMARY:Fiscal Committee Meeting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
