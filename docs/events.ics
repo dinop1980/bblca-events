@@ -4,30 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:8475536f-f82f-574c-8627-35896b05c107
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260930T210000Z
-DTEND:20261001T000000Z
-SUMMARY:Recreation Center Building Hours
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:779b9833-caa6-5d0e-8907-e41e27288969
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20260930T220000Z
-DTEND:20260930T234500Z
-SUMMARY:Open Swim
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:f52072ff-a678-5fe4-85e9-9f3d3155c4c4
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z
@@ -323,6 +299,882 @@ SEQUENCE:0
 DTSTART:20261010T170000Z
 DTEND:20261010T220000Z
 SUMMARY:Fall Festival
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:07cf8174-09aa-5f1d-8624-a595e5de070b
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261011T140000Z
+DTEND:20261011T161500Z
+SUMMARY:Yoga and Tending your Inner Fall Garden
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:091da53b-4917-5e8e-8616-62adbee8e249
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261011T150000Z
+DTEND:20261011T210000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:ca873883-4cc5-5253-9abb-7503442cb143
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261011T150000Z
+DTEND:20261011T204500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:1dd46772-b803-5ab3-ab6a-2f6f514df27b
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261012T130000Z
+DTEND:20261012T140000Z
+SUMMARY:Stretch & Walk Exercise by Video
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:1b600d8f-5405-5e27-910d-ca9bdddc14de
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261012T140000Z
+DTEND:20261012T150000Z
+SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:27ea865f-ecc9-51be-a0cc-c66de3488e9b
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261014T163000Z
+DTEND:20261014T180000Z
+SUMMARY:BBLCA Yarners Group
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:9dddc41f-581c-569f-995d-c32bff9d1f2a
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261014T170000Z
+DTEND:20261014T190000Z
+SUMMARY:Mahjong Group
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:869f0929-17a4-5d33-bf72-b61a3137d284
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261014T170000Z
+DTEND:20261014T180000Z
+SUMMARY:Art Workshop
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:188b5fd7-30f4-5206-bf17-cf6025abdad6
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261014T210000Z
+DTEND:20261015T000000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:e3576b02-4459-5fc8-9d3f-73a0337a3cb6
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261014T210000Z
+DTEND:20261014T220000Z
+SUMMARY:Water Aerobics
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:423e6cbd-baf8-5ad1-8bb0-ebc912b2c285
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261014T220000Z
+DTEND:20261014T234500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a0dd27cd-0bff-58b7-821a-e1d10b7e20df
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261015T130000Z
+DTEND:20261015T140000Z
+SUMMARY:Stretch & Walk Exercise by Video
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:3a5ea3c9-7816-5cd9-ae8b-e4b006fc2a71
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261015T140000Z
+DTEND:20261015T150000Z
+SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:afbb6e0f-4725-5e26-a39e-7b7aea2616e7
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261016T210000Z
+DTEND:20261017T000000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:d18956a7-86d3-54ed-96ae-a028fa4bc222
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261016T210000Z
+DTEND:20261016T234500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:f3fb5992-0605-5402-a5e4-29fc3cf0ead6
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261017T130000Z
+DTEND:20261017T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:71d5d661-1fb5-5f75-9ade-533d3c2e999d
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261017T140000Z
+DTEND:20261017T210000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:7e0059be-c68b-5644-87a6-1e56d7de986f
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261017T140000Z
+DTEND:20261017T150000Z
+SUMMARY:Water Aerobics
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:345381d2-db04-566e-abab-1fad0fbf5301
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261017T150000Z
+DTEND:20261017T204500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a24b8d87-57ca-522a-91d3-07bbf1346be4
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261018T150000Z
+DTEND:20261018T210000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:14957a46-aa3b-54ac-91f7-70e956bb1294
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261018T150000Z
+DTEND:20261018T204500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:e30403e4-1d12-5ed3-9c15-251d4bc7e905
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261019T130000Z
+DTEND:20261019T140000Z
+SUMMARY:Stretch & Walk Exercise by Video
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a54353f7-cd70-5fad-a4c7-396466d68da8
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261019T140000Z
+DTEND:20261019T150000Z
+SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:79971c98-fb51-5e88-8f18-a33607b4b2bb
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261021T163000Z
+DTEND:20261021T180000Z
+SUMMARY:BBLCA Yarners Group
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:bf1c80ab-688a-5247-a4af-c87bd2604e0b
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261021T170000Z
+DTEND:20261021T190000Z
+SUMMARY:Mahjong Group
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:0ebd08c1-7520-5cac-b55a-1faf436306d1
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261021T170000Z
+DTEND:20261021T180000Z
+SUMMARY:Art Workshop
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:810e3cb0-6a7e-5da1-bb53-533e1d938451
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261021T210000Z
+DTEND:20261022T000000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:95c0ee76-a078-5796-9cc5-16456f2a75f9
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261021T210000Z
+DTEND:20261021T220000Z
+SUMMARY:Water Aerobics
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:9cdb4159-cf5e-5826-9115-99038c02945b
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261021T220000Z
+DTEND:20261021T234500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:92a0c518-b368-5fc5-8ecf-17214ea17557
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261022T130000Z
+DTEND:20261022T140000Z
+SUMMARY:Stretch & Walk Exercise by Video
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:b8f3180c-e236-5ebf-b301-ebc48a33d339
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261022T140000Z
+DTEND:20261022T150000Z
+SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a16684ee-3b3c-5620-a88e-32fc821396cb
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261023T210000Z
+DTEND:20261024T000000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:9e5caaab-ae41-5d1a-8718-1d9183d638b2
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261023T210000Z
+DTEND:20261023T234500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:db77bb8e-f0a3-51bb-afb9-22d2536d70ed
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261023T210000Z
+DTEND:20261024T010000Z
+SUMMARY:Halloween Pre Party
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6dfb87c7-4b3b-509a-ac4f-b1af31a750e2
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261024T140000Z
+DTEND:20261024T210000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:437fb6a4-7b17-561c-97bc-c4946677a440
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261024T140000Z
+DTEND:20261024T150000Z
+SUMMARY:Water Aerobics
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6c36a463-97a6-514f-91b8-e2089f44b175
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261024T143000Z
+DTEND:20261024T180000Z
+SUMMARY:Trunk or Treat
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:1b1660aa-c97a-5125-a59d-2baefa9da84d
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261024T150000Z
+DTEND:20261024T204500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6e09d477-bcc6-532a-b3f0-95effcee1504
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261025T150000Z
+DTEND:20261025T210000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:10d11c10-a7da-54b7-b70c-598104cf16c1
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261025T150000Z
+DTEND:20261025T204500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6a32cb0a-0cb3-5094-8cb2-36e5c13e0803
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261026T130000Z
+DTEND:20261026T140000Z
+SUMMARY:Stretch & Walk Exercise by Video
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:7be6f803-996f-5bbf-a464-c54969cdd0d5
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261026T140000Z
+DTEND:20261026T150000Z
+SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:ab626f8b-4c6c-5c77-9fea-cdc296ef6b62
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261028T163000Z
+DTEND:20261028T180000Z
+SUMMARY:BBLCA Yarners Group
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:eda51171-a43e-5c00-9c4b-b5810035443d
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261028T170000Z
+DTEND:20261028T190000Z
+SUMMARY:Mahjong Group
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:05760268-625f-52be-95c5-f03aa3da964d
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261028T170000Z
+DTEND:20261028T180000Z
+SUMMARY:Art Workshop
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:d8755bf9-e138-55c2-8ad9-bbadd7b53b82
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261028T210000Z
+DTEND:20261029T000000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:88959db6-9437-5664-b6ae-95a75eda1484
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261028T210000Z
+DTEND:20261028T220000Z
+SUMMARY:Water Aerobics
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:bb1d60f3-8256-5b33-be90-8c889df45fa9
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261028T210000Z
+DTEND:20261029T000000Z
+SUMMARY:Soup bar
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:c0d97798-5beb-554a-8df4-db040260d55c
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261028T220000Z
+DTEND:20261028T234500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:3f422da5-5f18-5f06-a83a-41983b04dfe4
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261029T130000Z
+DTEND:20261029T140000Z
+SUMMARY:Stretch & Walk Exercise by Video
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:e7738927-496a-5a5c-9a45-dbccde1e2153
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261029T140000Z
+DTEND:20261029T150000Z
+SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:880c9dab-2176-547c-9540-44091b3f4ff9
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261030T210000Z
+DTEND:20261031T000000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:629618bf-0fa4-5738-828b-367be1f03f34
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261030T210000Z
+DTEND:20261030T234500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:0e667ed4-7cbe-5bcc-a436-c4202a2b614f
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261031T140000Z
+DTEND:20261031T210000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:aa97bce9-1d59-5e1c-8df3-460633ebd4d4
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261031T140000Z
+DTEND:20261031T150000Z
+SUMMARY:Water Aerobics
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6475e83e-211e-5835-872b-5bb7e693a5ae
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261031T150000Z
+DTEND:20261031T204500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:36524638-518b-5736-a69c-afde356f815a
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261101T160000Z
+DTEND:20261101T220000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:5500da99-2b9c-5edd-995b-73022b4f4718
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261101T160000Z
+DTEND:20261101T214500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:ae8596a8-3ae4-522a-af6c-0a413af822c6
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261102T140000Z
+DTEND:20261102T150000Z
+SUMMARY:Stretch & Walk Exercise by Video
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:d6027afb-0671-5c7c-ab06-d163a445fdb8
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261102T150000Z
+DTEND:20261102T160000Z
+SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:c75f4298-3a46-5d44-9dbe-1253dd58bfbc
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261104T173000Z
+DTEND:20261104T190000Z
+SUMMARY:BBLCA Yarners Group
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:2541aaee-60d8-50a7-a34a-1a3fc9a0e86b
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261104T180000Z
+DTEND:20261104T200000Z
+SUMMARY:Mahjong Group
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:1927413d-d55d-56c2-9f7a-c5025bd2160e
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261104T180000Z
+DTEND:20261104T190000Z
+SUMMARY:Art Workshop
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6ae982c3-74fb-5739-8438-64a645b27507
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261104T220000Z
+DTEND:20261105T010000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:c0df925d-48f1-573e-bdfa-ac44cf6ecb98
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261104T220000Z
+DTEND:20261104T230000Z
+SUMMARY:Water Aerobics
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6dd22661-1d66-5930-9340-9ef25c1c8c69
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261104T230000Z
+DTEND:20261105T004500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:de847b63-0ec5-5895-a0e7-a0b2e0646eb7
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261105T140000Z
+DTEND:20261105T150000Z
+SUMMARY:Stretch & Walk Exercise by Video
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:f8f8cbdb-a5f6-5734-a6bc-8cdd3b3429a5
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261105T150000Z
+DTEND:20261105T160000Z
+SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:04811e53-a3ec-5302-8bfd-df37b0de1215
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261106T220000Z
+DTEND:20261107T010000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:968c603a-62a4-5ebc-8fa6-a141f609ca10
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261106T220000Z
+DTEND:20261107T004500Z
+SUMMARY:Open Swim
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:13241387-058f-5a86-9bca-17e10f918547
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261107T150000Z
+DTEND:20261107T220000Z
+SUMMARY:Recreation Center Building Hours
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:bbd27d02-5dc2-5c0a-ae5f-79206bbcdc37
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261107T150000Z
+DTEND:20261107T160000Z
+SUMMARY:Water Aerobics
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:0149c8e6-ec02-5fbd-9faa-ded8f5cdf601
+DTSTAMP:20261001T055253Z
+LAST-MODIFIED:20261001T055253Z
+SEQUENCE:0
+DTSTART:20261107T160000Z
+DTEND:20261107T214500Z
+SUMMARY:Open Swim
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
