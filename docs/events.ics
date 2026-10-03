@@ -4,18 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:03244032-0e30-5fc4-8c74-4449b33596e4
-DTSTAMP:20261001T164806Z
-LAST-MODIFIED:20261001T164806Z
-SEQUENCE:0
-DTSTART:20261003T130000Z
-DTEND:20261003T140000Z
-SUMMARY:ARC Committee Meeting
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:05204c16-c080-52f2-803e-8242250d3723
 DTSTAMP:20260929T221450Z
 LAST-MODIFIED:20260929T221450Z
@@ -23,18 +11,6 @@ SEQUENCE:1
 DTSTART:20261003T140000Z
 DTEND:20261003T210000Z
 SUMMARY:Recreation Center Building Hours
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:c19dcb82-ba0e-57f0-9a8d-0fe243109f4c
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20261003T140000Z
-DTEND:20261003T150000Z
-SUMMARY:Water Aerobics
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
