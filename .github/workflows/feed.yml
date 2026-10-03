@@ -45,16 +45,39 @@ jobs:
             git fetch origin main
             git checkout -B main origin/main
 
-            # Generate the newest BBLCA feeds.
-            python make_feed.py
+            # Use one Eastern timestamp for the feed build and the displayed refresh time.
+            refreshed_at=$(TZ=America/New_York date +"%Y-%m-%dT%H:%M:%S%:z")
 
-            # Prepare the GitHub Pages folder.
+            # Generate the newest feeds and save the same data at the repository root
+            # and in docs, which GitHub Pages publishes.
+            python make_feed.py --now "$refreshed_at"
+
+            # Record the successful refresh in the tracked source page.
+            python - "$refreshed_at" <<'PY'
+          from pathlib import Path
+          import re
+          import sys
+
+          refreshed_at = sys.argv[1]
+          page = Path("index.html")
+          content = page.read_text(encoding="utf-8")
+          pattern = r'(<time id="last-updated-time" datetime=")[^"]+(">)[^<]*(</time>)'
+          updated, count = re.subn(
+              pattern,
+              lambda match: f"{match.group(1)}{refreshed_at}{match.group(2)}{refreshed_at}{match.group(3)}",
+              content,
+          )
+          if count != 1:
+              raise SystemExit(f"Expected one refresh-time element, found {count}")
+          page.write_text(updated, encoding="utf-8")
+          PY
+
             mkdir -p docs
-            if [ -f index.html ]; then
-              cp index.html docs/index.html
-            fi
+            cp docs/feed.xml feed.xml
+            cp docs/events.ics events.ics
+            cp index.html docs/index.html
 
-            git add docs/feed.xml docs/events.ics docs/index.html state.json
+            git add feed.xml events.ics index.html docs/feed.xml docs/events.ics docs/index.html state.json
 
             # Continue to deployment when nothing changed.
             if git diff --staged --quiet; then

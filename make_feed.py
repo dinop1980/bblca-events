@@ -166,11 +166,7 @@ def build_feed(events, state, now):
             datetime.fromisoformat(existing["published"])
         )
 
-    last_change = max(
-        (datetime.fromisoformat(entry["published"]) for entry in state.values()),
-        default=now,
-    )
-    last_build_date.text = format_datetime(last_change)
+    last_build_date.text = format_datetime(now)
     ET.indent(rss, space="  ")
     return ET.tostring(rss, encoding="utf-8", xml_declaration=True)
 
@@ -235,6 +231,10 @@ def build_ical(events, state, now):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, help="Use a saved HTML page for local checks")
+    parser.add_argument(
+        "--now",
+        help="Use this ISO 8601 timestamp for the build (defaults to the current Eastern time)",
+    )
     parser.add_argument("--output", type=Path, default=Path("docs/feed.xml"))
     parser.add_argument("--ics-output", type=Path, default=Path("docs/events.ics"))
     parser.add_argument("--state", type=Path, default=Path("state.json"))
@@ -255,7 +255,11 @@ def main():
         term in event["title"].casefold() for term in exclusions
     )]
     state = json.loads(args.state.read_text(encoding="utf-8")) if args.state.exists() else {}
-    now = datetime.now(EASTERN)
+    now = (
+        datetime.fromisoformat(args.now).astimezone(EASTERN)
+        if args.now
+        else datetime.now(EASTERN)
+    )
     feed = build_feed(events, state, now)
     calendar = build_ical(events, state, now)
     args.output.parent.mkdir(parents=True, exist_ok=True)
