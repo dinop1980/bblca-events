@@ -1,6 +1,12 @@
 name: Update BBLCA events feeds
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/feed.yml"
+      - "make_feed.py"
   workflow_dispatch:
   schedule:
     - cron: '17 */6 * * *'
