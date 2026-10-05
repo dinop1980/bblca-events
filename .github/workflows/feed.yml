@@ -23,6 +23,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      index_html: ${{ steps.checksums.outputs.index_html }}
+      feed_xml: ${{ steps.checksums.outputs.feed_xml }}
+      events_ics: ${{ steps.checksums.outputs.events_ics }}
 
     steps:
       - name: Download repository
@@ -88,7 +92,7 @@ jobs:
             # Continue to deployment when nothing changed.
             if git diff --staged --quiet; then
               echo "The calendar is already current."
-              exit 0
+              break
             fi
 
             git commit -m "Update BBLCA events"
@@ -96,14 +100,20 @@ jobs:
             # Finish if the push succeeds.
             if git push origin main; then
               echo "Calendar update saved successfully."
-              exit 0
+              break
             fi
 
             echo "Another run updated the repository. Retrying..."
+            if [ "$attempt" -eq 5 ]; then
+              echo "Unable to save after five attempts."
+              exit 1
+            fi
           done
 
-          echo "Unable to save after five attempts."
-          exit 1
+          # Verify the root source copies and Pages directory contain identical files.
+          cmp index.html docs/index.html
+          cmp feed.xml docs/feed.xml
+          cmp events.ics docs/events.ics
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -112,6 +122,15 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: docs
+
+      - name: Calculate public file checksums
+        id: checksums
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "index_html=$(sha256sum docs/index.html | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
+          echo "feed_xml=$(sha256sum docs/feed.xml | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
+          echo "events_ics=$(sha256sum docs/events.ics | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
 
   deploy:
     needs: build
@@ -125,3 +144,77 @@ jobs:
       - name: Publish website
         id: deployment
         uses: actions/deploy-pages@v4
+
+  verify_public:
+    name: Verify public feeds
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Confirm public HTML, RSS, and ICS match this build
+        env:
+          EXPECTED_INDEX: ${{ needs.build.outputs.index_html }}
+          EXPECTED_RSS: ${{ needs.build.outputs.feed_xml }}
+          EXPECTED_ICS: ${{ needs.build.outputs.events_ics }}
+          RUN_ID: ${{ github.run_id }}
+          RUN_ATTEMPT: ${{ github.run_attempt }}
+        run: |
+          python3 - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor
+          from hashlib import sha256
+          from urllib.error import URLError, HTTPError
+          from urllib.request import Request, urlopen
+          import os
+          import time
+
+          endpoints = {
+              "HTML": ("https://dinop1980.github.io/bblca-events/", os.environ["EXPECTED_INDEX"]),
+              "RSS": ("https://dinop1980.github.io/bblca-events/feed.xml", os.environ["EXPECTED_RSS"]),
+              "ICS": ("https://dinop1980.github.io/bblca-events/events.ics", os.environ["EXPECTED_ICS"]),
+          }
+
+          def fetch(name, url, expected, attempt):
+              separator = "&" if "?" in url else "?"
+              cache_busted_url = (
+                  f"{url}{separator}verify={os.environ['RUN_ID']}-"
+                  f"{os.environ['RUN_ATTEMPT']}-{attempt}"
+              )
+              request = Request(cache_busted_url, headers={"Cache-Control": "no-cache"})
+              try:
+                  with urlopen(request, timeout=20) as response:
+                      body = response.read()
+                  actual = sha256(body).hexdigest()
+                  return name, actual == expected, actual, None
+              except (HTTPError, URLError, TimeoutError) as error:
+                  return name, False, None, str(error)
+
+          for attempt in range(1, 25):
+              with ThreadPoolExecutor(max_workers=3) as pool:
+                  results = list(pool.map(
+                      lambda item: fetch(item[0], item[1][0], item[1][1], attempt),
+                      endpoints.items(),
+                  ))
+
+              mismatches = []
+              for name, matches, actual, error in results:
+                  if matches:
+                      print(f"{name}: matches this deployment")
+                  elif error:
+                      mismatches.append(f"{name}: fetch failed: {error}")
+                  else:
+                      mismatches.append(f"{name}: checksum {actual} does not match this build")
+
+              if not mismatches:
+                  print("All public endpoints match the files uploaded by this run.")
+                  break
+
+              print(f"Attempt {attempt}/24: " + "; ".join(mismatches))
+              if attempt == 24:
+                  raise SystemExit(
+                      "Public HTML, RSS, and ICS did not all match this deployment "
+                      "after 24 checks. The workflow is marked failed so the mismatch "
+                      "is visible."
+                  )
+              time.sleep(15)
+          PY
