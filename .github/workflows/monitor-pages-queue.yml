@@ -1,28 +1,33 @@
 name: Monitor Pages deployment queue
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/monitor-pages-queue.yml"
   schedule:
-    - cron: '*/15 * * * *'
+    # Keep the watchdog away from exact quarter-hour boundaries.
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 
 permissions:
-  actions: read
+  actions: write
 
 jobs:
   check_deploy_queue:
-    name: Check queued Pages deployments
+    name: Check feed freshness and Pages queue
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
 
     steps:
-      - name: Flag deployments queued for more than 20 minutes
+      - name: Recover missed feed runs and flag stuck deployments
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
         run: |
           python3 - <<'PY'
-          from datetime import datetime, timezone
-          from urllib.error import HTTPError, URLError
+          from datetime import datetime, timedelta, timezone
           from urllib.request import Request, urlopen
           import json
           import os
@@ -30,30 +35,86 @@ jobs:
 
           repository = os.environ["REPOSITORY"]
           token = os.environ["GH_TOKEN"]
+          now = datetime.now(timezone.utc)
+          refresh_stale_after = timedelta(hours=7)
+          recovery_cooldown = timedelta(minutes=45)
 
-          def api_get(path):
+          def api_request(path, method="GET", payload=None):
+              data = None if payload is None else json.dumps(payload).encode("utf-8")
               request = Request(
                   f"https://api.github.com/repos/{repository}/{path}",
+                  data=data,
+                  method=method,
                   headers={
                       "Accept": "application/vnd.github+json",
                       "Authorization": f"Bearer {token}",
                       "X-GitHub-Api-Version": "2022-11-28",
+                      "Content-Type": "application/json",
                   },
               )
               with urlopen(request, timeout=20) as response:
-                  return json.load(response)
+                  body = response.read()
+                  return json.loads(body) if body else None
 
-          now = datetime.now(timezone.utc)
-          runs = api_get("actions/runs?per_page=100&branch=main")["workflow_runs"]
-          stale = []
+          def parse_time(value):
+              return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
-          for run in runs:
-              if run.get("name") != "Update BBLCA events feeds":
-                  continue
+          # Use completed successful workflow runs as the freshness source of truth.
+          feed_runs = api_request(
+              "actions/workflows/feed.yml/runs?per_page=100&branch=main"
+          )["workflow_runs"]
+          active_runs = [
+              run for run in feed_runs
+              if run.get("status") in ("queued", "in_progress")
+          ]
+          successful_runs = [
+              run for run in feed_runs
+              if run.get("status") == "completed" and run.get("conclusion") == "success"
+          ]
+          last_success = max(
+              (parse_time(run["updated_at"]) for run in successful_runs),
+              default=None,
+          )
+
+          if active_runs:
+              active_ids = ", ".join(str(run["id"]) for run in active_runs)
+              print(f"Feed workflow already has an active run: {active_ids}.")
+          else:
+              refresh_age = None if last_success is None else now - last_success
+              if refresh_age is None or refresh_age >= refresh_stale_after:
+                  recent_attempts = [
+                      run for run in feed_runs
+                      if now - parse_time(run["created_at"]) < recovery_cooldown
+                  ]
+                  if recent_attempts:
+                      newest = max(recent_attempts, key=lambda run: run["created_at"])
+                      print(
+                          "Refresh is overdue, but a feed run was attempted recently; "
+                          f"waiting out the {recovery_cooldown} cooldown. "
+                          f"Recent run: {newest['html_url']}"
+                      )
+                  else:
+                      api_request(
+                          "actions/workflows/feed.yml/dispatches",
+                          method="POST",
+                          payload={"ref": "main"},
+                      )
+                      age_text = "no successful refresh on record" if refresh_age is None else (
+                          f"last successful refresh was {refresh_age.total_seconds() / 3600:.1f} hours ago"
+                      )
+                      print(f"Refresh was overdue ({age_text}); dispatched a recovery run.")
+              else:
+                  print(
+                      f"Last successful refresh was "
+                      f"{refresh_age.total_seconds() / 3600:.1f} hours ago; within the 7-hour limit."
+                  )
+
+          # Flag a Pages deploy job that remains queued long after its build completed.
+          stale_deploys = []
+          for run in feed_runs:
               if run.get("status") not in ("queued", "in_progress"):
                   continue
-
-              jobs = api_get(f"actions/runs/{run['id']}/jobs?per_page=100")["jobs"]
+              jobs = api_request(f"actions/runs/{run['id']}/jobs?per_page=100")["jobs"]
               build = next((job for job in jobs if job.get("name") == "build"), None)
               deploy = next((job for job in jobs if job.get("name") == "deploy"), None)
               if not build or not deploy or build.get("conclusion") != "success":
@@ -61,16 +122,15 @@ jobs:
               if deploy.get("status") != "queued":
                   continue
 
-              queued_since = build.get("completed_at")
-              if not queued_since:
+              build_finished = build.get("completed_at")
+              if not build_finished:
                   continue
-              queued_at = datetime.fromisoformat(queued_since.replace("Z", "+00:00"))
-              minutes = (now - queued_at).total_seconds() / 60
+              minutes = (now - parse_time(build_finished)).total_seconds() / 60
               if minutes >= 20:
-                  stale.append((run["id"], run.get("html_url"), minutes))
+                  stale_deploys.append((run["id"], run.get("html_url"), minutes))
 
-          if stale:
-              for run_id, url, minutes in stale:
+          if stale_deploys:
+              for run_id, url, minutes in stale_deploys:
                   message = (
                       f"Pages deploy job for Actions run {run_id} has been queued "
                       f"for {minutes:.0f} minutes. Live files may still be stale. "
@@ -79,5 +139,5 @@ jobs:
                   print(f"::error title=Pages deploy queue delay::{message}")
               sys.exit(1)
 
-          print("No Pages deployment has been queued for more than 20 minutes.")
+          print("Pages deployment queue check passed.")
           PY
