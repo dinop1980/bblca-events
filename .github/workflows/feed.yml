@@ -28,6 +28,7 @@ jobs:
       index_html: ${{ steps.checksums.outputs.index_html }}
       feed_xml: ${{ steps.checksums.outputs.feed_xml }}
       events_ics: ${{ steps.checksums.outputs.events_ics }}
+      committee_board_ics: ${{ steps.checksums.outputs.committee_board_ics }}
 
     steps:
       - name: Download repository
@@ -86,9 +87,10 @@ jobs:
             mkdir -p docs
             cp docs/feed.xml feed.xml
             cp docs/events.ics events.ics
+            cp docs/committee-board-meetings.ics committee-board-meetings.ics
             cp index.html docs/index.html
 
-            git add feed.xml events.ics index.html docs/feed.xml docs/events.ics docs/index.html state.json
+            git add feed.xml events.ics committee-board-meetings.ics index.html docs/feed.xml docs/events.ics docs/committee-board-meetings.ics docs/index.html state.json
 
             # Continue to deployment when nothing changed.
             if git diff --staged --quiet; then
@@ -115,6 +117,7 @@ jobs:
           cmp index.html docs/index.html
           cmp feed.xml docs/feed.xml
           cmp events.ics docs/events.ics
+          cmp committee-board-meetings.ics docs/committee-board-meetings.ics
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -132,6 +135,7 @@ jobs:
           echo "index_html=$(sha256sum docs/index.html | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
           echo "feed_xml=$(sha256sum docs/feed.xml | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
           echo "events_ics=$(sha256sum docs/events.ics | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
+          echo "committee_board_ics=$(sha256sum docs/committee-board-meetings.ics | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
 
   deploy:
     needs: build
@@ -158,6 +162,7 @@ jobs:
           EXPECTED_INDEX: ${{ needs.build.outputs.index_html }}
           EXPECTED_RSS: ${{ needs.build.outputs.feed_xml }}
           EXPECTED_ICS: ${{ needs.build.outputs.events_ics }}
+          EXPECTED_MEETINGS_ICS: ${{ needs.build.outputs.committee_board_ics }}
           RUN_ID: ${{ github.run_id }}
           RUN_ATTEMPT: ${{ github.run_attempt }}
         run: |
@@ -173,6 +178,10 @@ jobs:
               "HTML": ("https://dinop1980.github.io/bblca-events/", os.environ["EXPECTED_INDEX"]),
               "RSS": ("https://dinop1980.github.io/bblca-events/feed.xml", os.environ["EXPECTED_RSS"]),
               "ICS": ("https://dinop1980.github.io/bblca-events/events.ics", os.environ["EXPECTED_ICS"]),
+              "MEETINGS ICS": (
+                  "https://dinop1980.github.io/bblca-events/committee-board-meetings.ics",
+                  os.environ["EXPECTED_MEETINGS_ICS"],
+              ),
           }
 
           def fetch(name, url, expected, attempt):

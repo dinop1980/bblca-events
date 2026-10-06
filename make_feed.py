@@ -109,6 +109,12 @@ def parse_events(page):
     return events
 
 
+def is_committee_or_board_meeting(event):
+    """Return true for title-identified committee and board meetings."""
+    title = event["title"].casefold()
+    return "meeting" in title and ("committee" in title or "board" in title)
+
+
 def event_fingerprint(event):
     value = "\0".join((
         event["id"], event["title"], event["start"].isoformat(),
@@ -196,13 +202,19 @@ def fold_ical_lines(lines):
     return ("\r\n".join(folded) + "\r\n").encode("utf-8")
 
 
-def build_ical(events, state, now):
+def build_ical(
+    events,
+    state,
+    now,
+    calendar_name="Big Bass Lake Community Events",
+    uid_scope="",
+):
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//Community Calendar Mirror//BBLCA Events//EN",
         "CALSCALE:GREGORIAN",
-        "X-WR-CALNAME:Big Bass Lake Community Events",
+        "X-WR-CALNAME:" + ical_text(calendar_name),
     ]
     for event in sorted(events, key=lambda item: (item["start"], item["id"])):
         if event["end"] <= now:
@@ -210,7 +222,8 @@ def build_ical(events, state, now):
         record = state[event["id"]]
         modified = datetime.fromisoformat(record["published"]).astimezone(timezone.utc)
         stamp = modified.strftime("%Y%m%dT%H%M%SZ")
-        uid = uuid5(NAMESPACE_URL, CALENDAR_URL + "#" + event["id"])
+        uid_key = event["id"] if not uid_scope else f"{uid_scope}#{event['id']}"
+        uid = uuid5(NAMESPACE_URL, CALENDAR_URL + "#" + uid_key)
         lines.extend([
             "BEGIN:VEVENT",
             f"UID:urn:uuid:{uid}",
@@ -237,6 +250,12 @@ def main():
     )
     parser.add_argument("--output", type=Path, default=Path("docs/feed.xml"))
     parser.add_argument("--ics-output", type=Path, default=Path("docs/events.ics"))
+    parser.add_argument(
+        "--meetings-ics-output",
+        type=Path,
+        default=Path("docs/committee-board-meetings.ics"),
+        help="Write the committee and board meetings calendar here",
+    )
     parser.add_argument("--state", type=Path, default=Path("state.json"))
     parser.add_argument(
         "--exclude-title", action="append", default=[],
@@ -254,6 +273,7 @@ def main():
     events = [event for event in events if not any(
         term in event["title"].casefold() for term in exclusions
     )]
+    meeting_events = [event for event in events if is_committee_or_board_meeting(event)]
     state = json.loads(args.state.read_text(encoding="utf-8")) if args.state.exists() else {}
     now = (
         datetime.fromisoformat(args.now).astimezone(EASTERN)
@@ -262,13 +282,27 @@ def main():
     )
     feed = build_feed(events, state, now)
     calendar = build_ical(events, state, now)
+    meetings_calendar = build_ical(
+        meeting_events,
+        state,
+        now,
+        calendar_name="Big Bass Lake Committee and Board Meetings",
+        uid_scope="committee-board-meetings",
+    )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.ics_output.parent.mkdir(parents=True, exist_ok=True)
+    args.meetings_ics_output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_bytes(feed)
     args.ics_output.write_bytes(calendar)
+    args.meetings_ics_output.write_bytes(meetings_calendar)
     args.state.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     count = len(ET.fromstring(feed).find("channel").findall("item"))
-    print(f"Published {count} upcoming events to {args.output} and {args.ics_output}")
+    meeting_count = meetings_calendar.count(b"BEGIN:VEVENT")
+    print(
+        f"Published {count} upcoming events to {args.output} and {args.ics_output}; "
+        f"published {meeting_count} committee and board meetings to "
+        f"{args.meetings_ics_output}"
+    )
 
 
 if __name__ == "__main__":
