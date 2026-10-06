@@ -1,6 +1,7 @@
 name: Update BBLCA events feeds
 
 on:
+  # Pushes to this workflow file can manually restore a Pages deployment.
   push:
     branches:
       - main
