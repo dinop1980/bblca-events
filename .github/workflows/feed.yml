@@ -8,6 +8,8 @@ on:
     paths:
       - ".github/workflows/feed.yml"
       - "make_feed.py"
+      - "cinc_history.py"
+      - "test_history.py"
   workflow_dispatch:
   schedule:
     - cron: '17 */6 * * *'
