@@ -123,6 +123,41 @@ def event_fingerprint(event):
     return hashlib.sha256(value.encode("utf-8")).hexdigest()
 
 
+def archive_events(events, state, now):
+    """Save observed event details and return the retained event history."""
+    for event in events:
+        fingerprint = event_fingerprint(event)
+        record = state.get(event["id"], {})
+        if record.get("fingerprint") != fingerprint:
+            record = {
+                "fingerprint": fingerprint,
+                "published": now.isoformat(),
+                "sequence": int(record.get("sequence", 0)) + 1 if record else 0,
+            }
+        else:
+            record.setdefault("sequence", 0)
+
+        record["event"] = {
+            "title": event["title"],
+            "start": event["start"].isoformat(),
+            "end": event["end"].isoformat(),
+        }
+        state[event["id"]] = record
+
+    retained = []
+    for event_id, record in state.items():
+        event = record.get("event")
+        if not event:
+            continue
+        retained.append({
+            "id": event_id,
+            "title": event["title"],
+            "start": datetime.fromisoformat(event["start"]),
+            "end": datetime.fromisoformat(event["end"]),
+        })
+    return retained
+
+
 def format_event_time(event):
     start, end = event["start"], event["end"]
     date = f'{start.strftime("%A, %B")} {start.day}, {start.year}'
@@ -140,15 +175,13 @@ def build_feed(events, state, now):
     for name, value in (
         ("title", "Big Bass Lake Community Events"),
         ("link", CALENDAR_URL),
-        ("description", "Upcoming events from the public BBLCA calendar."),
+        ("description", "Events from the public BBLCA calendar, including past events observed since archive retention began."),
         ("language", "en-us"),
     ):
         ET.SubElement(channel, name).text = value
     last_build_date = ET.SubElement(channel, "lastBuildDate")
 
     for event in sorted(events, key=lambda item: (item["start"], item["id"])):
-        if event["end"] <= now:
-            continue
         fingerprint = event_fingerprint(event)
         existing = state.get(event["id"], {})
         if existing.get("fingerprint") != fingerprint:
@@ -217,8 +250,6 @@ def build_ical(
         "X-WR-CALNAME:" + ical_text(calendar_name),
     ]
     for event in sorted(events, key=lambda item: (item["start"], item["id"])):
-        if event["end"] <= now:
-            continue
         record = state[event["id"]]
         modified = datetime.fromisoformat(record["published"]).astimezone(timezone.utc)
         stamp = modified.strftime("%Y%m%dT%H%M%SZ")
@@ -273,13 +304,17 @@ def main():
     events = [event for event in events if not any(
         term in event["title"].casefold() for term in exclusions
     )]
-    meeting_events = [event for event in events if is_committee_or_board_meeting(event)]
     state = json.loads(args.state.read_text(encoding="utf-8")) if args.state.exists() else {}
     now = (
         datetime.fromisoformat(args.now).astimezone(EASTERN)
         if args.now
         else datetime.now(EASTERN)
     )
+    events = archive_events(events, state, now)
+    events = [event for event in events if not any(
+        term in event["title"].casefold() for term in exclusions
+    )]
+    meeting_events = [event for event in events if is_committee_or_board_meeting(event)]
     feed = build_feed(events, state, now)
     calendar = build_ical(events, state, now)
     meetings_calendar = build_ical(
@@ -299,7 +334,7 @@ def main():
     count = len(ET.fromstring(feed).find("channel").findall("item"))
     meeting_count = meetings_calendar.count(b"BEGIN:VEVENT")
     print(
-        f"Published {count} upcoming events to {args.output} and {args.ics_output}; "
+        f"Published {count} retained events to {args.output} and {args.ics_output}; "
         f"published {meeting_count} committee and board meetings to "
         f"{args.meetings_ics_output}"
     )
