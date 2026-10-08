@@ -42,6 +42,15 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: Install browser for one-time historical backfill
+        if: ${{ hashFiles('history_backfill.json') == '' }}
+        run: |
+          python -m pip install playwright==1.63.0
+          python -m playwright install --with-deps chromium
+
+      - name: Test feed and history parsers
+        run: python -m unittest discover -v
+
       - name: Generate and save updated events
         shell: bash
         run: |
@@ -90,7 +99,7 @@ jobs:
             cp docs/committee-board-meetings.ics committee-board-meetings.ics
             cp index.html docs/index.html
 
-            git add feed.xml events.ics committee-board-meetings.ics index.html docs/feed.xml docs/events.ics docs/committee-board-meetings.ics docs/index.html state.json
+            git add feed.xml events.ics committee-board-meetings.ics index.html docs/feed.xml docs/events.ics docs/committee-board-meetings.ics docs/index.html state.json history_backfill.json
 
             # Continue to deployment when nothing changed.
             if git diff --staged --quiet; then
@@ -228,3 +237,4 @@ jobs:
                   )
               time.sleep(15)
           PY
+

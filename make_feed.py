@@ -7,7 +7,7 @@ import html
 import json
 import re
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -23,12 +23,14 @@ FETCH_RETRY_SECONDS = 10 * 60
 RETRYABLE_HTTP_STATUS = {404, 408, 429}
 EASTERN = ZoneInfo("America/New_York")
 APPOINTMENT = re.compile(
-    r'this\.AddAppointment\("(?P<id>[^"\r\n]+)"\s*,\s*'
+    r'(?:this|dxo)\.AddAppointment\("(?P<id>[^"\r\n]+)"\s*,\s*'
     r'new Date\((?P<when>[\d,\s]+)\)\s*,\s*'
     r'(?P<duration>\d+)\s*,\s*\[[^\]]*\]\s*,\s*'
     r'"(?P<title>(?:\\.|[^"\\])*)"',
 )
 JS_ESCAPE = re.compile(r"\\(u[0-9a-fA-F]{4}|x[0-9a-fA-F]{2}|.)", re.DOTALL)
+HISTORY_START = date(2025, 9, 1)
+HISTORY_MARKER = Path("history_backfill.json")
 
 
 def fetch_calendar_page(
@@ -289,6 +291,10 @@ def main():
     )
     parser.add_argument("--state", type=Path, default=Path("state.json"))
     parser.add_argument(
+        "--history-marker", type=Path, default=HISTORY_MARKER,
+        help="Record a verified one-time historical backfill",
+    )
+    parser.add_argument(
         "--exclude-title", action="append", default=[],
         help="Exclude titles containing this text; can be repeated",
     )
@@ -310,6 +316,14 @@ def main():
         if args.now
         else datetime.now(EASTERN)
     )
+
+    history_meta = None
+    if not args.input and not args.history_marker.exists():
+        from cinc_history import fetch_historical_events
+
+        historical, history_meta = fetch_historical_events(HISTORY_START, now.date())
+        archive_events(historical, state, now)
+
     events = archive_events(events, state, now)
     events = [event for event in events if not any(
         term in event["title"].casefold() for term in exclusions
@@ -331,6 +345,11 @@ def main():
     args.ics_output.write_bytes(calendar)
     args.meetings_ics_output.write_bytes(meetings_calendar)
     args.state.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    if history_meta is not None:
+        args.history_marker.write_text(
+            json.dumps(history_meta, indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
     count = len(ET.fromstring(feed).find("channel").findall("item"))
     meeting_count = meetings_calendar.count(b"BEGIN:VEVENT")
     print(
