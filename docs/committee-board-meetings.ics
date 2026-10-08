@@ -4,6 +4,54 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Committee and Board Meetings
 BEGIN:VEVENT
+UID:urn:uuid:6b2d29a6-74d6-50a6-9927-32f7764621ad
+DTSTAMP:20261008T163232Z
+LAST-MODIFIED:20261008T163232Z
+SEQUENCE:0
+DTSTART:20260930T230000Z
+DTEND:20261001T003000Z
+SUMMARY:Joint Chairs Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:39f88afa-14e7-5997-90f4-00ae7d081229
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261001T223000Z
+DTEND:20261001T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:d1380ef3-ed07-568d-bdab-ef4d4a794995
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261003T130000Z
+DTEND:20261003T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:3cee8b28-b2c2-5beb-be48-4d1ea88b5d47
+DTSTAMP:20261001T164806Z
+LAST-MODIFIED:20261001T164806Z
+SEQUENCE:0
+DTSTART:20261007T230000Z
+DTEND:20261008T000000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:f2a7fd8a-a18a-5c26-bedf-b8c6cfbd23e4
 DTSTAMP:20261001T164806Z
 LAST-MODIFIED:20261001T164806Z

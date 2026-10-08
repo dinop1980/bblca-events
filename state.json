@@ -1,5 +1,10 @@
 {
   "195_21": {
+    "event": {
+      "end": "2026-10-20T16:00:00-04:00",
+      "start": "2026-10-20T14:00:00-04:00",
+      "title": "Book Club Meeting"
+    },
     "fingerprint": "5438debafac700a5ef118462349f9e49b4661a10af308825d5f39f66a011ac39",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
@@ -21,57 +26,121 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "389_112": {
+    "event": {
+      "end": "2026-09-30T20:00:00-04:00",
+      "start": "2026-09-30T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "87cb7595a58b5ce774f7d567fdd7aaae981d14b7f95d291b933416c61c5e2fc0",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "389_113": {
+    "event": {
+      "end": "2026-10-02T20:00:00-04:00",
+      "start": "2026-10-02T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "e3e78e6454b988ac9fe7894a86a6d2c3964893a2947bd2fca4373a2c7c8af9f1",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "389_114": {
+    "event": {
+      "end": "2026-10-07T20:00:00-04:00",
+      "start": "2026-10-07T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "66bb9b39f768153c48d37edbbff3766ce15ccc62609014c31b45b12b58faa881",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "389_115": {
+    "event": {
+      "end": "2026-10-09T20:00:00-04:00",
+      "start": "2026-10-09T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "679b6300a20a8455d45379310b2dadc2e98d300d9e0ccc0ad3bc32c0e5b6218b",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "389_116": {
+    "event": {
+      "end": "2026-10-14T20:00:00-04:00",
+      "start": "2026-10-14T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "94edebbcc3021a1f8b7d378ba076071e2ab3be10c0cfabd09edfa2492c23d845",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "389_117": {
+    "event": {
+      "end": "2026-10-16T20:00:00-04:00",
+      "start": "2026-10-16T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "7264631a3abbbbbcf85c7e120088c6c90f0cec2950ecb9ad46542cb213a2747d",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "389_118": {
+    "event": {
+      "end": "2026-10-21T20:00:00-04:00",
+      "start": "2026-10-21T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "b890186cd5700395e44592a7dad9b990d8ed4ba9136a08e277503e7f69f00ed6",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "389_119": {
+    "event": {
+      "end": "2026-10-23T20:00:00-04:00",
+      "start": "2026-10-23T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "833f18b2c59906e60a30ddea808a0b0438486ed1845e9f8b9b913e2c1e22a16b",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "389_120": {
+    "event": {
+      "end": "2026-10-28T20:00:00-04:00",
+      "start": "2026-10-28T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "a8d829ba25cb18ea1c4cc674a014727ae5cebc463ba8abc980db96d7b84c798c",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "389_121": {
+    "event": {
+      "end": "2026-10-30T20:00:00-04:00",
+      "start": "2026-10-30T17:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "8a127ca2617b320f918c045235295e7dcabfa08dcaa9ab23bd9c33b688dade3a",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "389_122": {
+    "event": {
+      "end": "2026-11-04T20:00:00-05:00",
+      "start": "2026-11-04T17:00:00-05:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "dea30978b7a764f85f36a47f86a4ef19038c495e4f4e053c9451fe7ff2d2d312",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "389_123": {
+    "event": {
+      "end": "2026-11-06T20:00:00-05:00",
+      "start": "2026-11-06T17:00:00-05:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "fd6ba10c05ee81c4b383201c2da43aecd11196b0a7dfbf0b53ae2e03f81f61a0",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -85,29 +154,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "391_56": {
+    "event": {
+      "end": "2026-09-30T18:00:00-04:00",
+      "start": "2026-09-30T17:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "50cd86d0c898c06628d894788966658050163571e9d58662c4c560a211460be0",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "391_57": {
+    "event": {
+      "end": "2026-10-07T18:00:00-04:00",
+      "start": "2026-10-07T17:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "b01eeb624dc90434982d6c4a5353272e0ee03ed1f120270af2df8967d2fa677c",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "391_58": {
+    "event": {
+      "end": "2026-10-14T18:00:00-04:00",
+      "start": "2026-10-14T17:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "36079ed717575bc1dbd6f77d912526c25ff1f11e51f00ece1f032b12a42aa979",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "391_59": {
+    "event": {
+      "end": "2026-10-21T18:00:00-04:00",
+      "start": "2026-10-21T17:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "4c7cb6271531e8aae0dbfb4e520a72cd392d54475d2c22d1b6682e026238ee23",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "391_60": {
+    "event": {
+      "end": "2026-10-28T18:00:00-04:00",
+      "start": "2026-10-28T17:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "e954041c1c9997cc904f782def7b33729f9f43bfa9660dbe89d37718bf4797c6",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "391_61": {
+    "event": {
+      "end": "2026-11-04T18:00:00-05:00",
+      "start": "2026-11-04T17:00:00-05:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "19ad5d698142d77791e29571c755c1f8a47f45e4034652630cdba5570dad8bb8",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -121,29 +222,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "393_56": {
+    "event": {
+      "end": "2026-09-30T19:45:00-04:00",
+      "start": "2026-09-30T18:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "6e5e128926840649eb68b562d8683c87422fe05781188683507c48234c814526",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "393_57": {
+    "event": {
+      "end": "2026-10-07T19:45:00-04:00",
+      "start": "2026-10-07T18:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "7adfdaced2fd7cbf34a521a68285df0fdcc6046766442793eefa5f584d4c7aa6",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "393_58": {
+    "event": {
+      "end": "2026-10-14T19:45:00-04:00",
+      "start": "2026-10-14T18:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "6ac28316d92df97db0be80f78cb050090aef2891efe09316ad0f483d0445b02a",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "393_59": {
+    "event": {
+      "end": "2026-10-21T19:45:00-04:00",
+      "start": "2026-10-21T18:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "266a51c34fa98e687d2ec6297c60757bba5e1e77af5d0b41e3880c25f1e03ff1",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "393_60": {
+    "event": {
+      "end": "2026-10-28T19:45:00-04:00",
+      "start": "2026-10-28T18:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "ad6ef8051f484bafcd715bf61623b1b2005ad831d7d94648f1a964112f69edd0",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "393_61": {
+    "event": {
+      "end": "2026-11-04T19:45:00-05:00",
+      "start": "2026-11-04T18:00:00-05:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "b55f17de224f739e603fd3cee9294f1ceff2493e4f63a9560e45ccd80fd60ecf",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -157,29 +290,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "394_56": {
+    "event": {
+      "end": "2026-10-02T19:45:00-04:00",
+      "start": "2026-10-02T17:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "1d50ce68bcf7846267ae74605902a9c828a219383b20bf58d56b9fb725b52e67",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "394_57": {
+    "event": {
+      "end": "2026-10-09T19:45:00-04:00",
+      "start": "2026-10-09T17:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "1c194dea98008b682ae2fc54a7e125cb07e62c9f549108b646169bb6853127ba",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "394_58": {
+    "event": {
+      "end": "2026-10-16T19:45:00-04:00",
+      "start": "2026-10-16T17:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "78b44ff7d1947dd3d88fc3f54f37cc69c30ed8263a9ed2851fbe63e658ab1e2d",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "394_59": {
+    "event": {
+      "end": "2026-10-23T19:45:00-04:00",
+      "start": "2026-10-23T17:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "6ac0503dc6fb58af8d7f97634274ab63ba297c7bbfdab2def9541ef710ec835c",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "394_60": {
+    "event": {
+      "end": "2026-10-30T19:45:00-04:00",
+      "start": "2026-10-30T17:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "3e8038cfc200de1aea9674cee72f55edf69915d74ac3be0f38d50252f3407963",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "394_61": {
+    "event": {
+      "end": "2026-11-06T19:45:00-05:00",
+      "start": "2026-11-06T17:00:00-05:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "689109d87a76c72880a200134b085682c1e071ef4746ddf6c225943e76cf7e92",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -193,31 +358,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "395_56": {
+    "event": {
+      "end": "2026-10-03T17:00:00-04:00",
+      "start": "2026-10-03T10:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "e9bb828ab3d091087e44fe5ef6d9d5999b03005adf76fc48d7559e4bbbece116",
     "published": "2026-09-29T18:14:50.076978-04:00",
     "sequence": 1
   },
   "395_57": {
+    "event": {
+      "end": "2026-10-10T17:00:00-04:00",
+      "start": "2026-10-10T10:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "df6429c2ae08bed4bd454a5db1cc3645ca87632449ff68346e0da8493f6313c4",
     "published": "2026-09-29T18:14:50.076978-04:00",
     "sequence": 1
   },
   "395_58": {
+    "event": {
+      "end": "2026-10-17T17:00:00-04:00",
+      "start": "2026-10-17T10:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "7f6338756dadb2452ce7fa9f5baa930c08109574d0a0c9a6d89a57731ad616f1",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "395_59": {
+    "event": {
+      "end": "2026-10-24T17:00:00-04:00",
+      "start": "2026-10-24T10:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "2608cfeeefa4fc2b9115412730e1f868ec85d39a5ce6a512fed9075d728f17ee",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "395_60": {
+    "event": {
+      "end": "2026-10-31T17:00:00-04:00",
+      "start": "2026-10-31T10:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "8a70e2d3f81ebd4ad8b7e97fdab586f0d1e1aa596c1a0aa3e2ca823f87ee89f5",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "395_61": {
+    "event": {
+      "end": "2026-11-07T17:00:00-05:00",
+      "start": "2026-11-07T10:00:00-05:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "d67ad0aaa713182710af591475a9dddb0cd80b9b7fbfed6195bc3028b434bde8",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -231,29 +426,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "396_56": {
+    "event": {
+      "end": "2026-10-03T11:00:00-04:00",
+      "start": "2026-10-03T10:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "abbcaf6a33da17e103601bc6b25bdfd5bcbb3d86efd8287f9e65eec63e481cc9",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "396_57": {
+    "event": {
+      "end": "2026-10-10T11:00:00-04:00",
+      "start": "2026-10-10T10:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "dc5a6d0bd59a8aee4e09319724d0b30c19189897b25cd55b25479a0de7e5bf6d",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "396_58": {
+    "event": {
+      "end": "2026-10-17T11:00:00-04:00",
+      "start": "2026-10-17T10:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "25e7b5985b20adc197f7350d9ed7cc84f3d175b818f3e7ebaa6227c631505477",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "396_59": {
+    "event": {
+      "end": "2026-10-24T11:00:00-04:00",
+      "start": "2026-10-24T10:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "a3cb787851e3aed5e7046bf5be302024b664f189fda467b6777d2f17cb15de61",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "396_60": {
+    "event": {
+      "end": "2026-10-31T11:00:00-04:00",
+      "start": "2026-10-31T10:00:00-04:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "439e3c3f4ec325c04cdbfe4f052d650d2adbdbd71c69caa6960113306e7019b3",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "396_61": {
+    "event": {
+      "end": "2026-11-07T11:00:00-05:00",
+      "start": "2026-11-07T10:00:00-05:00",
+      "title": "Water Aerobics"
+    },
     "fingerprint": "b266570cd78c8733d7a04e8e3d773a3c5a19fe8ccae3166e3771e7c57df4f61f",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -267,31 +494,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "397_56": {
+    "event": {
+      "end": "2026-10-03T16:45:00-04:00",
+      "start": "2026-10-03T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "1878661daecc1d842f7315f9bf674b7f9647affc49f357de7d2f1cd2caf09a64",
     "published": "2026-09-29T18:14:50.076978-04:00",
     "sequence": 1
   },
   "397_57": {
+    "event": {
+      "end": "2026-10-10T16:45:00-04:00",
+      "start": "2026-10-10T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "667718e56046695a11b14a5377542e1e4bd7a3dbb3ff4569700c57be66c5a936",
     "published": "2026-09-29T18:14:50.076978-04:00",
     "sequence": 1
   },
   "397_58": {
+    "event": {
+      "end": "2026-10-17T16:45:00-04:00",
+      "start": "2026-10-17T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "4fc393f58185d934641c167e247ac5f72390396d877d54ead2c405f0e7683208",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "397_59": {
+    "event": {
+      "end": "2026-10-24T16:45:00-04:00",
+      "start": "2026-10-24T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "cccf71831528ace1dbe7e7f7580b952ffc23912f562b43271045fb1355eec5f0",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "397_60": {
+    "event": {
+      "end": "2026-10-31T16:45:00-04:00",
+      "start": "2026-10-31T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "23562824bc886edb4d8a39a42f11eae3acbd3537183792582c6ab02e4d86d6f7",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "397_61": {
+    "event": {
+      "end": "2026-11-07T16:45:00-05:00",
+      "start": "2026-11-07T11:00:00-05:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "a0fc7483c57da04f693fe55a2ffd7f49f4291315b98c36bdbaecb75e74e64875",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -305,29 +562,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "398_55": {
+    "event": {
+      "end": "2026-09-27T17:00:00-04:00",
+      "start": "2026-09-27T11:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "77447ce9c8cce92966faff0b7c9359db215c00a15580c1b97204a7db50abc054",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "398_56": {
+    "event": {
+      "end": "2026-10-04T17:00:00-04:00",
+      "start": "2026-10-04T11:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "5735c4853ea7ed2c7f69748ade4273fc73647d91ff1afbddbf139206279433f3",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "398_57": {
+    "event": {
+      "end": "2026-10-11T17:00:00-04:00",
+      "start": "2026-10-11T11:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "756238a2c308c0525077e1fb442159a29c048f4b8640617ef91c12fc34a575fa",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "398_58": {
+    "event": {
+      "end": "2026-10-18T17:00:00-04:00",
+      "start": "2026-10-18T11:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "ebd80580295437529e85af8eec03f2d4aa7fec40deabe0e763c92e8d0dee8ac3",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "398_59": {
+    "event": {
+      "end": "2026-10-25T17:00:00-04:00",
+      "start": "2026-10-25T11:00:00-04:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "ec3d709cbdd71d3a0d4428a35dbd4d63d6db7a0ffac7eaeeef19770018e4887c",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "398_60": {
+    "event": {
+      "end": "2026-11-01T17:00:00-05:00",
+      "start": "2026-11-01T11:00:00-05:00",
+      "title": "Recreation Center Building Hours"
+    },
     "fingerprint": "de1c896cd4d5861d6de866bc20969f97b6aba3e076718f0880aca2dc9f756eb1",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -341,89 +630,181 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "399_55": {
+    "event": {
+      "end": "2026-09-27T16:45:00-04:00",
+      "start": "2026-09-27T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "7f3f266772ea26d15db266225d8eea9ed974c91a1736f4fa8a9d429ce4d66a46",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "399_56": {
+    "event": {
+      "end": "2026-10-04T16:45:00-04:00",
+      "start": "2026-10-04T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "12aaf02cd201f4106f2a474328032562ddb89a0b6ae158c48ebe6f35cd294ade",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "399_57": {
+    "event": {
+      "end": "2026-10-11T16:45:00-04:00",
+      "start": "2026-10-11T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "a0b6a3abc089454791c579ec2b47777cb84ab82ff609cbc0390107e928eb9e96",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "399_58": {
+    "event": {
+      "end": "2026-10-18T16:45:00-04:00",
+      "start": "2026-10-18T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "8feaaa400e5905454c9514e7182f70485e690e95980bcddafa846d11ee7a280b",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "399_59": {
+    "event": {
+      "end": "2026-10-25T16:45:00-04:00",
+      "start": "2026-10-25T11:00:00-04:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "40c5c6da828e0004b633252ad6823bef26fccbd7f6618992d9e4bae87a34b46a",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "399_60": {
+    "event": {
+      "end": "2026-11-01T16:45:00-05:00",
+      "start": "2026-11-01T11:00:00-05:00",
+      "title": "Open Swim"
+    },
     "fingerprint": "ba259a0342164a5cee8c6f6ee62b688d9c2f1255ef6960ae3baf59aa0f19b8af",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "420_10": {
+    "event": {
+      "end": "2026-11-07T10:00:00-05:00",
+      "start": "2026-11-07T09:00:00-05:00",
+      "title": "ARC Committee Meeting"
+    },
     "fingerprint": "fd20fad858846f47aee4172ed8ff8c696b5f8215802485e62edd6c76be369a6f",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "420_9": {
+    "event": {
+      "end": "2026-10-03T10:00:00-04:00",
+      "start": "2026-10-03T09:00:00-04:00",
+      "title": "ARC Committee Meeting"
+    },
     "fingerprint": "46328c43054b429d5f7fb65d9ca81e6abddb15f294e0e1ed299691953b196af8",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "422_8": {
+    "event": {
+      "end": "2026-10-10T12:00:00-04:00",
+      "start": "2026-10-10T11:00:00-04:00",
+      "title": "ELM Committee Meeting"
+    },
     "fingerprint": "af119f85f4e815fa0482428723777b0cce636c8947d0a77d65a2bc95c3c6180b",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "428_5": {
+    "event": {
+      "end": "2026-11-07T10:00:00-05:00",
+      "start": "2026-11-07T09:00:00-05:00",
+      "title": "CFC Committee Meeting"
+    },
     "fingerprint": "b60f247d0de9131191725ec4377b0749081a9281607b9bee14a2f934f0ade511",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "431_3": {
+    "event": {
+      "end": "2026-10-24T12:00:00-04:00",
+      "start": "2026-10-24T08:45:00-04:00",
+      "title": "Violations Review Committee Meeting"
+    },
     "fingerprint": "c9021dda25f531c90a5b5239593b097605c21099c4de1c0edadb58e17520c85d",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "436": {
+    "event": {
+      "end": "2026-11-05T20:00:00-05:00",
+      "start": "2026-11-05T19:00:00-05:00",
+      "title": "Rental Committee Meeting"
+    },
     "fingerprint": "a6dbd828398e88d84b4c70a8792dc1bdb701a715e636cac59d2c157359fb312b",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "437_10": {
+    "event": {
+      "end": "2026-11-04T20:00:00-05:00",
+      "start": "2026-11-04T19:00:00-05:00",
+      "title": "Strategic Planning Committee Meeting"
+    },
     "fingerprint": "8671a7cadad972c5b425cbfdfb0287b65cca5a7a7d3205c4bcc1c674a49f88de",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "437_9": {
+    "event": {
+      "end": "2026-10-07T20:00:00-04:00",
+      "start": "2026-10-07T19:00:00-04:00",
+      "title": "Strategic Planning Committee Meeting"
+    },
     "fingerprint": "73dd258e0e3d31cf275dbe3f60582f1c0bb3e089f02c72bc2d0936344dcb18f1",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "441": {
+    "event": {
+      "end": "2026-10-31T11:00:00-04:00",
+      "start": "2026-10-31T09:00:00-04:00",
+      "title": "Town Hall"
+    },
     "fingerprint": "45dcb9af44ca6cf8ebf6ecaa56b82aff1c45a543cc599eab4b255ed7e404a9ab",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "451_8": {
+    "event": {
+      "end": "2026-10-10T10:00:00-04:00",
+      "start": "2026-10-10T09:00:00-04:00",
+      "title": "Fiscal Committee Meeting"
+    },
     "fingerprint": "f470d368e687f24e0010c6446bb5cfe1b1511250cbaaa219c66afb2caa8a2a84",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "451_9": {
+    "event": {
+      "end": "2026-11-07T12:00:00-05:00",
+      "start": "2026-11-07T11:00:00-05:00",
+      "title": "Fiscal Committee Meeting"
+    },
     "fingerprint": "d91a73161f181e267118ef54ba487fcb62d3e61308ca7461f1381aeaa38e4559",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "458": {
+    "event": {
+      "end": "2026-10-24T10:00:00-04:00",
+      "start": "2026-10-24T09:00:00-04:00",
+      "title": "Fiscal Committee Meeting"
+    },
     "fingerprint": "943c67055249b7bf00eabf2b91eb5244c2b0b6834f6e8cd2d269f95f6d4ddc56",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
@@ -433,6 +814,11 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "460_9": {
+    "event": {
+      "end": "2026-10-17T12:00:00-04:00",
+      "start": "2026-10-17T09:00:00-04:00",
+      "title": "Board of Director's Meeting"
+    },
     "fingerprint": "af7ef19c1d1e78104f768ef69d9d8d37b9be64a47e92d591f88f2831ccb583a0",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -454,57 +840,121 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "46_270": {
+    "event": {
+      "end": "2026-09-28T10:00:00-04:00",
+      "start": "2026-09-28T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "71605457fe226fc372afedf46219d2c75acedd0ea65145601662ded44c103452",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "46_271": {
+    "event": {
+      "end": "2026-10-01T10:00:00-04:00",
+      "start": "2026-10-01T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "a5d6a44311bd755b238decdcafead3ac2ea464c379b96c9e79d6b77f09793add",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "46_272": {
+    "event": {
+      "end": "2026-10-05T10:00:00-04:00",
+      "start": "2026-10-05T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "42777bc30b519fc2a908159b3a42ead1a9c8eab7aceac23160056e4f86499cad",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "46_273": {
+    "event": {
+      "end": "2026-10-08T10:00:00-04:00",
+      "start": "2026-10-08T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "f2eb7687a43d833668052a678385af802a5a80d6080feacf709f44c0bc5d481e",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "46_274": {
+    "event": {
+      "end": "2026-10-12T10:00:00-04:00",
+      "start": "2026-10-12T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "cdda59b8bf934cab5e9ccf3d22a7dcc131fc951e283021f0b154162ec6a0e720",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "46_275": {
+    "event": {
+      "end": "2026-10-15T10:00:00-04:00",
+      "start": "2026-10-15T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "7a9a5cae886835b2ca9728cd23f0b703cd8af26ed4e738548bdaecdc109359cd",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "46_276": {
+    "event": {
+      "end": "2026-10-19T10:00:00-04:00",
+      "start": "2026-10-19T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "bc5d2aebf7603ca870e9c38970bd681914f3d1795b4a38fd3a60e690c4b0f6e7",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "46_277": {
+    "event": {
+      "end": "2026-10-22T10:00:00-04:00",
+      "start": "2026-10-22T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "ca19867cb5e1c62c8871e0fe8c408b197ce74028c3bed728f07edea7490be56a",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "46_278": {
+    "event": {
+      "end": "2026-10-26T10:00:00-04:00",
+      "start": "2026-10-26T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "c098e98027cf597feaa99c969fa2a803ac22a6be5deaf2d2341ad179dc034b5f",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "46_279": {
+    "event": {
+      "end": "2026-10-29T10:00:00-04:00",
+      "start": "2026-10-29T09:00:00-04:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "730cb7f8a5d0258e333ef77dfd9518b0b2f245c01c323dae8028389187f5556f",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "46_280": {
+    "event": {
+      "end": "2026-11-02T10:00:00-05:00",
+      "start": "2026-11-02T09:00:00-05:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "559ac740932d799dd15871457cf9e20b835122d10c88cebd2eb0e6cea8311890",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "46_281": {
+    "event": {
+      "end": "2026-11-05T10:00:00-05:00",
+      "start": "2026-11-05T09:00:00-05:00",
+      "title": "Stretch & Walk Exercise by Video"
+    },
     "fingerprint": "df70629ada3543238b3d8aed63c939ed7d5a24b6e1f3bd43086edb62e7e36e06",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -518,29 +968,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "50_135": {
+    "event": {
+      "end": "2026-09-30T14:00:00-04:00",
+      "start": "2026-09-30T12:30:00-04:00",
+      "title": "BBLCA Yarners Group"
+    },
     "fingerprint": "ab798ea9e3f14199e16916c6fec73077f2fa51f0100872ceeb6dc7513240eaa3",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "50_136": {
+    "event": {
+      "end": "2026-10-07T14:00:00-04:00",
+      "start": "2026-10-07T12:30:00-04:00",
+      "title": "BBLCA Yarners Group"
+    },
     "fingerprint": "e2ae97ae5cb7b43d889f21ccd7b9636d90408961544b9ea91bb8bfca716b0750",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "50_137": {
+    "event": {
+      "end": "2026-10-14T14:00:00-04:00",
+      "start": "2026-10-14T12:30:00-04:00",
+      "title": "BBLCA Yarners Group"
+    },
     "fingerprint": "14661ba7e9de84a665bcf9fac14cb58ee7dfc5f9594e73a85f1b748daf1a08b6",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "50_138": {
+    "event": {
+      "end": "2026-10-21T14:00:00-04:00",
+      "start": "2026-10-21T12:30:00-04:00",
+      "title": "BBLCA Yarners Group"
+    },
     "fingerprint": "4e3897e642ece7703494c86bb76b32e9368a0b9e2e8dc346048198d45f533b02",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "50_139": {
+    "event": {
+      "end": "2026-10-28T14:00:00-04:00",
+      "start": "2026-10-28T12:30:00-04:00",
+      "title": "BBLCA Yarners Group"
+    },
     "fingerprint": "9a0db50f9b51c647c19fefdb82987e18395c9d7663664c8e143dc8d74e231b76",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "50_140": {
+    "event": {
+      "end": "2026-11-04T14:00:00-05:00",
+      "start": "2026-11-04T12:30:00-05:00",
+      "title": "BBLCA Yarners Group"
+    },
     "fingerprint": "0c1440e2ca8f4a1680c94cf501367aba279685ea696333dc27580e46392d9f3f",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -562,57 +1044,121 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "51_270": {
+    "event": {
+      "end": "2026-09-28T11:00:00-04:00",
+      "start": "2026-09-28T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "3e705a6f9659eb2ce01b9dd80ccaf986137ad66cfdf953e2594f79f9a2d4dc7b",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "51_271": {
+    "event": {
+      "end": "2026-10-01T11:00:00-04:00",
+      "start": "2026-10-01T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "03f108c6635795ea1928470a3f7fb50d1d2217f39ba07c2a1e38b013dd9c5495",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "51_272": {
+    "event": {
+      "end": "2026-10-05T11:00:00-04:00",
+      "start": "2026-10-05T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "5408023144a80662fb4875485b23be6b135e935cbbbc5af24e80ef766cb543ab",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "51_273": {
+    "event": {
+      "end": "2026-10-08T11:00:00-04:00",
+      "start": "2026-10-08T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "596bee70469bb10fce1828c2c164710b30d41d9ac2af3fb8f214b70335443a51",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "51_274": {
+    "event": {
+      "end": "2026-10-12T11:00:00-04:00",
+      "start": "2026-10-12T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "f6cb82e5a00beaeecb6e90311c476ce3f3042204caa5cd2a0f3c4e88b019fdd5",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "51_275": {
+    "event": {
+      "end": "2026-10-15T11:00:00-04:00",
+      "start": "2026-10-15T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "110695f23157de3a2cb6c57388e649572cea39fe130de89ef72bc63e50cef37d",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "51_276": {
+    "event": {
+      "end": "2026-10-19T11:00:00-04:00",
+      "start": "2026-10-19T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "6ef410b677360a8f1d182c561425ccba215cecab02703f03f4687c6a6cf97efb",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "51_277": {
+    "event": {
+      "end": "2026-10-22T11:00:00-04:00",
+      "start": "2026-10-22T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "95f253dd4eb307f519b8ed5b3b783178bf0594c42e6e02b6bb01cc27b1f9d4ff",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "51_278": {
+    "event": {
+      "end": "2026-10-26T11:00:00-04:00",
+      "start": "2026-10-26T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "5f9e5602d8df087ca52889c0bb9455cbfc9322d517d13a7377887acaa21d96b7",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "51_279": {
+    "event": {
+      "end": "2026-10-29T11:00:00-04:00",
+      "start": "2026-10-29T10:00:00-04:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "8dc5433ed0e8aab1fb7a9eebbb2991f1e28aed3a586522aa8dace536e5e578b8",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "51_280": {
+    "event": {
+      "end": "2026-11-02T11:00:00-05:00",
+      "start": "2026-11-02T10:00:00-05:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "6336afb7589f390c9cff86e8b0af45f2305caf5e4a751f0c65d13e9c7813fcbf",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "51_281": {
+    "event": {
+      "end": "2026-11-05T11:00:00-05:00",
+      "start": "2026-11-05T10:00:00-05:00",
+      "title": "Line Dancing"
+    },
     "fingerprint": "15295ead832d25cad74cb9d4ff8cf36f661704677bd3dc1abfa3ce4b19103637",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -626,29 +1172,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "52_135": {
+    "event": {
+      "end": "2026-09-30T15:00:00-04:00",
+      "start": "2026-09-30T13:00:00-04:00",
+      "title": "Mahjong Group"
+    },
     "fingerprint": "c519d09ce4aa6b9b043f16ab26865fdbf74df2e2365b1974d4d35eb71ecb5069",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "52_136": {
+    "event": {
+      "end": "2026-10-07T15:00:00-04:00",
+      "start": "2026-10-07T13:00:00-04:00",
+      "title": "Mahjong Group"
+    },
     "fingerprint": "f88a2fc4279a65d515f96828f2c6aa45321f30cdc0f1b37a75552b2b06fee087",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "52_137": {
+    "event": {
+      "end": "2026-10-14T15:00:00-04:00",
+      "start": "2026-10-14T13:00:00-04:00",
+      "title": "Mahjong Group"
+    },
     "fingerprint": "ee0ff6e6aa7a51c7821fec8a5782771c4f14f424deace317639b59c890e2b89e",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "52_138": {
+    "event": {
+      "end": "2026-10-21T15:00:00-04:00",
+      "start": "2026-10-21T13:00:00-04:00",
+      "title": "Mahjong Group"
+    },
     "fingerprint": "dccbb48dda7aa5de54258d77363205c8dbbb0bb07504757c04f3f88a51521c10",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "52_139": {
+    "event": {
+      "end": "2026-10-28T15:00:00-04:00",
+      "start": "2026-10-28T13:00:00-04:00",
+      "title": "Mahjong Group"
+    },
     "fingerprint": "2ac0d4115b49a37804213df4e0d0e6f48ce8227ae55342007d5a07a18d6f402f",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "52_140": {
+    "event": {
+      "end": "2026-11-04T15:00:00-05:00",
+      "start": "2026-11-04T13:00:00-05:00",
+      "title": "Mahjong Group"
+    },
     "fingerprint": "b06367a9b6107d51277c318c95404115f115de12d85610068a2622d205439997",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -662,29 +1240,61 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "53_135": {
+    "event": {
+      "end": "2026-09-30T14:00:00-04:00",
+      "start": "2026-09-30T13:00:00-04:00",
+      "title": "Art Workshop"
+    },
     "fingerprint": "cb91ca390b1450ee18338b57bfc145a9635bab99b8a866858863c0c7964fd37e",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "53_136": {
+    "event": {
+      "end": "2026-10-07T14:00:00-04:00",
+      "start": "2026-10-07T13:00:00-04:00",
+      "title": "Art Workshop"
+    },
     "fingerprint": "1a710628b939a743fbc9f1e9e129678f32618cfe803f50f2b12ac3d24bf64bcb",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "53_137": {
+    "event": {
+      "end": "2026-10-14T14:00:00-04:00",
+      "start": "2026-10-14T13:00:00-04:00",
+      "title": "Art Workshop"
+    },
     "fingerprint": "2730864e6bea892f15f9ec5aba1cf6f3bc4c802ba413b49f489f898aa1dc32ca",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "53_138": {
+    "event": {
+      "end": "2026-10-21T14:00:00-04:00",
+      "start": "2026-10-21T13:00:00-04:00",
+      "title": "Art Workshop"
+    },
     "fingerprint": "1e8884369995f67184cd34fc5771e86d90e0c6e630644db269725f4620326ea5",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "53_139": {
+    "event": {
+      "end": "2026-10-28T14:00:00-04:00",
+      "start": "2026-10-28T13:00:00-04:00",
+      "title": "Art Workshop"
+    },
     "fingerprint": "dc99f3e56fa18f6f48212eba37b73929a54c6ca9f363906e6c7824accff7b3d5",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "53_140": {
+    "event": {
+      "end": "2026-11-04T14:00:00-05:00",
+      "start": "2026-11-04T13:00:00-05:00",
+      "title": "Art Workshop"
+    },
     "fingerprint": "17d9b9a5c99c5f51007432854c87a6b2860baf343819c363fecdbcc7c1811867",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
@@ -698,16 +1308,31 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "808_4": {
+    "event": {
+      "end": "2026-10-01T19:30:00-04:00",
+      "start": "2026-10-01T18:30:00-04:00",
+      "title": "AD-HOC Tree & Shrub Committee Meeting"
+    },
     "fingerprint": "7df79e481b4d7d892020e19196023e7415ceb861c78e50f894dc0bad528997c1",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "808_5": {
+    "event": {
+      "end": "2026-10-15T19:30:00-04:00",
+      "start": "2026-10-15T18:30:00-04:00",
+      "title": "AD-HOC Tree & Shrub Committee Meeting"
+    },
     "fingerprint": "5dc223862fc39bf6c0280d214e85f7d6de4905059b519a583916fe87b1c5e60f",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
   },
   "808_6": {
+    "event": {
+      "end": "2026-10-29T19:30:00-04:00",
+      "start": "2026-10-29T18:30:00-04:00",
+      "title": "AD-HOC Tree & Shrub Committee Meeting"
+    },
     "fingerprint": "22bdd385c627339d7acabba074e7d66a765dd4f496396950c02a2cec0a6022e3",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
@@ -717,30 +1342,71 @@
     "published": "2026-09-13T16:29:40.177138-04:00"
   },
   "815": {
+    "event": {
+      "end": "2026-10-11T12:15:00-04:00",
+      "start": "2026-10-11T10:00:00-04:00",
+      "title": "Yoga and Tending your Inner Fall Garden"
+    },
     "fingerprint": "c28aa4a47ce7e3694c7c8f954a5107cfb326a734e2869b44d716a909c93720e9",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "817": {
+    "event": {
+      "end": "2026-10-10T18:00:00-04:00",
+      "start": "2026-10-10T13:00:00-04:00",
+      "title": "Fall Festival"
+    },
     "fingerprint": "ab5f98957f32718f99f20a7715bd3704ef930ac5a702c5e864d6214324def3b0",
-    "published": "2026-09-13T16:29:40.177138-04:00"
+    "published": "2026-09-13T16:29:40.177138-04:00",
+    "sequence": 0
   },
   "818": {
+    "event": {
+      "end": "2026-10-28T20:00:00-04:00",
+      "start": "2026-10-28T17:00:00-04:00",
+      "title": "Soup bar"
+    },
     "fingerprint": "f90b320c151db14c2c19faf33878b57de02f41f84c79c6679c34ace4eab75a4b",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "821": {
+    "event": {
+      "end": "2026-10-24T14:00:00-04:00",
+      "start": "2026-10-24T10:30:00-04:00",
+      "title": "Trunk or Treat"
+    },
     "fingerprint": "d1f2d64efcaf9b5cf3f7e46ab40ffaddfdf9ee88f241af80cecce3be0702715c",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
   "822": {
+    "event": {
+      "end": "2026-10-23T21:00:00-04:00",
+      "start": "2026-10-23T17:00:00-04:00",
+      "title": "Halloween Pre Party"
+    },
     "fingerprint": "6d5b7db8165345d33f394da80f9f099ebc6bff91a8def4f7dba6135036deaf8c",
     "published": "2026-10-01T01:52:53.284659-04:00",
     "sequence": 0
   },
+  "829": {
+    "event": {
+      "end": "2026-09-30T20:30:00-04:00",
+      "start": "2026-09-30T19:00:00-04:00",
+      "title": "Joint Chairs Committee Meeting"
+    },
+    "fingerprint": "cac4134474703b94f2b0acf87729b9b673245f3cf9740e5f8dc0f8b81629dc99",
+    "published": "2026-10-08T12:32:32-04:00",
+    "sequence": 0
+  },
   "830": {
+    "event": {
+      "end": "2026-10-14T20:00:00-04:00",
+      "start": "2026-10-14T19:00:00-04:00",
+      "title": "Rental Committee Meeting"
+    },
     "fingerprint": "271fc9b3ad890220a84de5fed78f28fafadf5c3a48a7a061a1c5f022a360bb17",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
