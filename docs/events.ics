@@ -4,42 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Community Events
 BEGIN:VEVENT
-UID:urn:uuid:0d05ef2e-c2c5-51df-95a9-dabb144b7066
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20261007T210000Z
-DTEND:20261008T000000Z
-SUMMARY:Recreation Center Building Hours
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:3697d5fb-e671-5338-8e3c-d52943d7ab64
-DTSTAMP:20260913T202940Z
-LAST-MODIFIED:20260913T202940Z
-SEQUENCE:0
-DTSTART:20261007T220000Z
-DTEND:20261007T234500Z
-SUMMARY:Open Swim
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:uuid:242b2816-87dd-51a4-84fd-8048b4d29550
-DTSTAMP:20261001T164806Z
-LAST-MODIFIED:20261001T164806Z
-SEQUENCE:0
-DTSTART:20261007T230000Z
-DTEND:20261008T000000Z
-SUMMARY:Strategic Planning Committee Meeting
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:0850d470-f7b7-5e90-a04b-001ede10b1bb
 DTSTAMP:20260913T202940Z
 LAST-MODIFIED:20260913T202940Z

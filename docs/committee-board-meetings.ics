@@ -4,18 +4,6 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Committee and Board Meetings
 BEGIN:VEVENT
-UID:urn:uuid:3cee8b28-b2c2-5beb-be48-4d1ea88b5d47
-DTSTAMP:20261001T164806Z
-LAST-MODIFIED:20261001T164806Z
-SEQUENCE:0
-DTSTART:20261007T230000Z
-DTEND:20261008T000000Z
-SUMMARY:Strategic Planning Committee Meeting
-DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
- ebaxis.com/bblca/calendar/
-URL:https://bblca.cincwebaxis.com/bblca/calendar/
-END:VEVENT
-BEGIN:VEVENT
 UID:urn:uuid:f2a7fd8a-a18a-5c26-bedf-b8c6cfbd23e4
 DTSTAMP:20261001T164806Z
 LAST-MODIFIED:20261001T164806Z
