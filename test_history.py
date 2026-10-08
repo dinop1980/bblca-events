@@ -2,11 +2,18 @@ import unittest
 
 from datetime import date, timedelta
 
-from cinc_history import parse_visible_interval, validate_month_grid_dates
+from cinc_history import (
+    parse_month_year,
+    parse_visible_interval,
+    validate_month_grid_dates,
+)
 from make_feed import EASTERN, parse_events
 
 
 class HistoricalCalendarTests(unittest.TestCase):
+    def test_date_picker_month_label(self):
+        self.assertEqual(parse_month_year("September 2026"), (2026, 9))
+
     def test_parser_accepts_live_and_historical_cinc_call_forms(self):
         source = r'''<script>
         this.AddAppointment("live_1", new Date(2026,9,8,9), 3600000,

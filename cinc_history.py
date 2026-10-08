@@ -21,7 +21,7 @@ VIEW_INTERVAL = "#schCalendar_viewVisibleIntervalBlock_ctl00_mainCell"
 MONTH_GRID_DATES = "#schCalendar td.dxscDateCellHeader[title]"
 APPOINTMENT_SCRIPT = re.compile(r"\bdxo\.AddAppointment\(")
 SELECTION_DATE = re.compile(r"SetSelectionInternal\(new Date\((\d+),(\d+),(\d+)")
-MONTH_YEAR = re.compile(r"^([A-Za-z]+)\s*,\s*(\d{4})$")
+MONTH_YEAR = re.compile(r"^([A-Za-z]+)\s+(\d{4})$")
 RANGE_INTERVAL = re.compile(
     r"^([A-Za-z]+)(?:\s*,\s*(\d{4}))?\s*[–-]\s*"
     r"([A-Za-z]+)\s*,\s*(\d{4})$"
