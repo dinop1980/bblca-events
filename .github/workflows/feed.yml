@@ -1,7 +1,7 @@
 name: Update BBLCA events feeds
 
 on:
-  # Pushes to this workflow file can manually restore a Pages deployment.
+  # A change here can trigger a one-time Pages rebuild after static page edits.
   push:
     branches:
       - main
