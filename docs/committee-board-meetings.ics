@@ -4,6 +4,1026 @@ PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Big Bass Lake Committee and Board Meetings
 BEGIN:VEVENT
+UID:urn:uuid:22509128-dad4-5a38-b57a-b19b3c71d93b
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20250906T130000Z
+DTEND:20250906T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:b1fa27a2-66a0-594e-8ffc-12383d4fa01e
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20250906T130000Z
+DTEND:20250906T140000Z
+SUMMARY:Community Focus Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:fb7aab3b-8d68-534f-b7e2-ead03fb7e2dd
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20250913T140000Z
+DTEND:20250913T150000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:00ce9c28-64cb-5433-a754-c94b26e3a03f
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20250920T130000Z
+DTEND:20250920T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:70d38289-7521-54ae-bfd0-85ff9307ced0
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20250920T160000Z
+DTEND:20250920T170000Z
+SUMMARY:Rental Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:772a1d28-020a-5c99-b903-b54f8072e517
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20250927T130000Z
+DTEND:20250927T140000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:ac62844c-23b8-5245-bd94-5c0bc99da21e
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20250927T150000Z
+DTEND:20250927T160000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:ac7439ac-5863-5601-a0bb-17e88f0adbf7
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251004T130000Z
+DTEND:20251004T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:2b1923ae-fee1-5014-833e-deb6c40c6334
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251011T120000Z
+DTEND:20251011T130000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:8d20c3cf-dbfc-5b0e-84df-f3c030004481
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251011T140000Z
+DTEND:20251011T150000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:70b0615c-5eb3-52a9-bafb-73f1b26253d5
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251018T130000Z
+DTEND:20251018T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:5df8795b-f21a-58c0-a594-a000d6c945c3
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251025T120000Z
+DTEND:20251025T140000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:32bb75fd-29d6-5f34-a680-505044b1e070
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251101T130000Z
+DTEND:20251101T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:e817135a-1fe7-5420-876b-506f75fe4d7e
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251101T130000Z
+DTEND:20251101T140000Z
+SUMMARY:Community Focus Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:edce6b3a-5c32-514c-9c00-f726675610d9
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251108T140000Z
+DTEND:20251108T150000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:bf75c956-63f4-5032-b72c-b3e923aa229f
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251108T160000Z
+DTEND:20251108T170000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6993e6b5-bc69-502b-b78b-7291e73b7010
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251112T230000Z
+DTEND:20251113T000000Z
+SUMMARY:Rental Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:7dbdc618-c74f-5a32-a1c1-be6210bfbd74
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251115T140000Z
+DTEND:20251115T170000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:8eb47cfe-e293-5727-87a9-f71e116a00b6
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251122T150000Z
+DTEND:20251122T160000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:2958bc01-e220-59b3-a11d-fa2ef5d2c4ef
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20251206T140000Z
+DTEND:20251206T150000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:385a5f57-275a-50ed-9f72-95f694e2d207
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260103T140000Z
+DTEND:20260103T150000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:f74da958-b281-504b-bae6-1e8c926c7f2d
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260103T140000Z
+DTEND:20260103T150000Z
+SUMMARY:CFC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:e5507515-9196-5e1e-bd09-9ee96f1716eb
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260108T000000Z
+DTEND:20260108T010000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:4e866bdc-b693-5b91-b5f7-3e2e3ed96a4c
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260117T140000Z
+DTEND:20260117T170000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:8cd0e977-9251-57c5-80d2-16eadb1243d6
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260117T170000Z
+DTEND:20260117T180000Z
+SUMMARY:Rental Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:b07560a4-d7e1-5f82-aa3c-097253e308fc
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260124T160000Z
+DTEND:20260124T170000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:08779ca1-f7fd-5264-a971-fb9a6b63698b
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260205T000000Z
+DTEND:20260205T010000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a9d1493b-1aad-5ed2-8269-5486cde8611d
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260214T150000Z
+DTEND:20260214T160000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:5112bcb7-0fa6-5394-a3d7-cb1f9804e99b
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260221T140000Z
+DTEND:20260221T170000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:84075548-c34d-5593-b9a2-834bec1c4842
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260228T140000Z
+DTEND:20260228T150000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:fc12ddf5-0717-594c-a385-22af5c59fc17
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260305T000000Z
+DTEND:20260305T010000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6aebf5c1-c655-53c1-96e8-b56fe95acd78
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260307T140000Z
+DTEND:20260307T150000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:4166b32a-2b55-5fdb-8c71-c4b341a91ad2
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260307T140000Z
+DTEND:20260307T150000Z
+SUMMARY:CFC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:8f0e1c3e-120b-5caa-85c6-a101cdd4ef63
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260307T160000Z
+DTEND:20260307T170000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:fbfceb66-d3ed-559a-86c8-eb6b8076e985
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260312T230000Z
+DTEND:20260313T000000Z
+SUMMARY:Rental Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:994adbb9-441d-5c24-a939-f8ac5453dc3d
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260314T140000Z
+DTEND:20260314T150000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:b42a531c-8c4a-5f16-b846-1da525c1aab6
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260321T130000Z
+DTEND:20260321T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:df679acc-6036-569d-9a05-e1c958eb65d8
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260321T160000Z
+DTEND:20260321T170000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:4e278594-7375-5964-b6b1-8ac9eb6bea2a
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260328T124500Z
+DTEND:20260328T160000Z
+SUMMARY:Violations Review Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:123b136d-897d-51a1-ab51-e07b4b75eabd
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260401T230000Z
+DTEND:20260402T000000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a645093f-5211-572e-b93b-8767215076c3
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260404T130000Z
+DTEND:20260404T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:f48cb012-e82c-53c0-8ba6-c912653838bf
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260411T140000Z
+DTEND:20260411T150000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:d40a61c6-39ab-526c-b76d-0850525292bb
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260418T130000Z
+DTEND:20260418T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:84b341fc-23c2-51fd-8918-9131d722baa9
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260425T124500Z
+DTEND:20260425T160000Z
+SUMMARY:Violations Review Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:41894158-8043-53c8-85d5-abc7003d5af9
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260425T124500Z
+DTEND:20260425T160000Z
+SUMMARY:Violations Review Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:3ba4b049-bbbd-5173-9249-eec08c9d3c29
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260425T130000Z
+DTEND:20260425T140000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:4eeef0dd-7266-54ad-97f4-8b51193f8b49
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260425T150000Z
+DTEND:20260425T160000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:09d11853-dda0-57f9-9cf0-8722b5dbadb1
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260502T130000Z
+DTEND:20260502T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:8f0dc9c3-0ef2-5e2f-a072-809a298af2dc
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260502T130000Z
+DTEND:20260502T140000Z
+SUMMARY:CFC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:5ac4f9c4-11ad-5117-b87f-945ec3df3c88
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260506T230000Z
+DTEND:20260507T000000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:3dc7a588-4b57-54cd-b469-32c178671979
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260509T140000Z
+DTEND:20260509T150000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:4ce7713a-6996-5433-973a-c088a064d970
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260516T130000Z
+DTEND:20260516T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:b9e81d55-fcb9-5830-bb68-9d30bbd86f96
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260516T160000Z
+DTEND:20260516T170000Z
+SUMMARY:Rental Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:e6b07921-15b6-59f8-9d3a-0e62e3896b0e
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260603T230000Z
+DTEND:20260604T000000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:03558aa7-17ea-5f6a-95d5-2c1d9f0487c9
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260606T130000Z
+DTEND:20260606T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:ee9c9cc3-54ef-5eae-b2c9-8e0b8db370b5
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260606T150000Z
+DTEND:20260606T160000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:0ae31bdc-5d22-58e7-a002-ea4537c1662f
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260613T140000Z
+DTEND:20260613T150000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:e8d5de72-3e73-58af-8f80-2e8661948ac1
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260620T130000Z
+DTEND:20260620T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:48302893-5f1b-5823-99ba-7e67f4b4c8ed
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260620T160000Z
+DTEND:20260620T170000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:473f65d8-9c66-5551-94a8-622c2621f703
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260627T124500Z
+DTEND:20260627T160000Z
+SUMMARY:Violations Review Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:29830600-5c25-5154-81a9-2d3674f3827c
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260627T124500Z
+DTEND:20260627T160000Z
+SUMMARY:Violations Review Committee meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:f7cfd372-caaf-5939-a980-ea3d64bca91a
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260708T230000Z
+DTEND:20260709T000000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a5912acb-5372-5681-aea0-949c813c5d30
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260711T123000Z
+DTEND:20260711T130000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:07d7843e-0856-5617-82a6-a8871e76ec2f
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260711T130000Z
+DTEND:20260711T140000Z
+SUMMARY:CFC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:4959970a-1abe-58bc-a7e4-fd30d5b06ad9
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260716T230000Z
+DTEND:20260717T000000Z
+SUMMARY:Rental Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:3f4493f4-23c0-51d9-851a-7e42a7638234
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260718T130000Z
+DTEND:20260718T140000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:b3d04a5f-7785-5ad1-9419-707086fb52b9
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260725T130000Z
+DTEND:20260725T140000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:0d25aa99-fa5d-502f-a32a-39137cc88ea6
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260801T130000Z
+DTEND:20260801T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:046f7e3d-6d2a-56c4-a21e-325cb32f85d2
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260805T230000Z
+DTEND:20260806T000000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:435f75d1-0e59-56e6-97c0-cdc7ea196382
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260806T223000Z
+DTEND:20260806T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:c571ac63-f3f7-5314-86d8-a551e7743478
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260808T140000Z
+DTEND:20260808T150000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:4f1aa6e0-dd83-5c0d-8f61-e04c8af53cb6
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260815T130000Z
+DTEND:20260815T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:6c39290c-62db-54fd-974f-a27831400205
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260820T223000Z
+DTEND:20260820T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:92439ee3-d8f9-59f4-a5f4-c802db7aed71
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260822T150000Z
+DTEND:20260822T160000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:c9d39597-7be6-559a-93a5-3b744c7c9d23
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260829T124500Z
+DTEND:20260829T160000Z
+SUMMARY:Violations Review Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:a41e5ea7-9164-51de-9831-e9114afb1821
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260829T124500Z
+DTEND:20260829T160000Z
+SUMMARY:Violations Review Committee meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:99d5c856-7e6f-5722-a3c5-18c7854d59eb
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260902T230000Z
+DTEND:20260903T000000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:925a185e-20e0-51aa-89ca-1a8de61580cf
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260903T223000Z
+DTEND:20260903T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:118624cb-a7ad-5aa8-bee0-f1863409635e
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260905T130000Z
+DTEND:20260905T140000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:e742222a-6321-5cd4-80c3-10a24b0723fd
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260905T130000Z
+DTEND:20260905T140000Z
+SUMMARY:CFC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:c957e70a-29f1-598c-a8c0-d849a622562a
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260912T140000Z
+DTEND:20260912T150000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:2d2f368a-6fd9-5d4a-9a82-1f77b2186542
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260917T223000Z
+DTEND:20260917T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:2f893ac7-5b88-5a15-9c12-8aa60ad52d9e
+DTSTAMP:20260913T202940Z
+LAST-MODIFIED:20260913T202940Z
+SEQUENCE:0
+DTSTART:20260919T130000Z
+DTEND:20260919T160000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:85885c68-edfd-5e35-9033-4b8889c4688f
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260919T150000Z
+DTEND:20260919T160000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:0e1ad3a1-a1a6-58f5-a838-ea6f7961517d
+DTSTAMP:20261008T173016Z
+LAST-MODIFIED:20261008T173016Z
+SEQUENCE:0
+DTSTART:20260926T130000Z
+DTEND:20260926T140000Z
+SUMMARY:Fiscal Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:6b2d29a6-74d6-50a6-9927-32f7764621ad
 DTSTAMP:20261008T163232Z
 LAST-MODIFIED:20261008T163232Z
