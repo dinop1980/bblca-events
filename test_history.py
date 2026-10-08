@@ -1,4 +1,5 @@
 import unittest
+from pathlib import Path
 
 from datetime import date, timedelta
 
@@ -11,6 +12,18 @@ from make_feed import EASTERN, parse_events
 
 
 class HistoricalCalendarTests(unittest.TestCase):
+    def test_page_uses_full_association_name_in_footer(self):
+        page = Path("index.html").read_text(encoding="utf-8")
+
+        self.assertIn(
+            "as a community resource for the Big Bass Lake Community Association.",
+            page,
+        )
+        self.assertNotIn(
+            "as a community resource for Big Bass Lake.",
+            page,
+        )
+
     def test_date_picker_month_label(self):
         self.assertEqual(parse_month_year("September 2026"), (2026, 9))
 
