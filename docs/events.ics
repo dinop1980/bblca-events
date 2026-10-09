@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Community Calendar Mirror//BBLCA Events//EN
 CALSCALE:GREGORIAN
-X-WR-CALNAME:Big Bass Lake Community Events
+X-WR-CALNAME:Big Bass Lake Community Association Events
 BEGIN:VEVENT
 UID:urn:uuid:af4e4e95-b39d-585c-94ea-8096dac8bd5f
 DTSTAMP:20261008T173016Z
