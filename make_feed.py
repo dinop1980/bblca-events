@@ -175,7 +175,7 @@ def build_feed(events, state, now):
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
     for name, value in (
-        ("title", "Big Bass Lake Community Events"),
+        ("title", "Big Bass Lake Community Association Events"),
         ("link", CALENDAR_URL),
         ("description", "Events from the public BBLCA calendar, including past events observed since archive retention began."),
         ("language", "en-us"),
@@ -241,7 +241,7 @@ def build_ical(
     events,
     state,
     now,
-    calendar_name="Big Bass Lake Community Events",
+    calendar_name="Big Bass Lake Community Association Events",
     uid_scope="",
 ):
     lines = [
