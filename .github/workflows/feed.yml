@@ -27,6 +27,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     outputs:
+      generated_sha: ${{ steps.checksums.outputs.generated_sha }}
       index_html: ${{ steps.checksums.outputs.index_html }}
       feed_xml: ${{ steps.checksums.outputs.feed_xml }}
       events_ics: ${{ steps.checksums.outputs.events_ics }}
@@ -143,6 +144,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          # Record the generated commit, which may be newer than github.sha.
+          echo "generated_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           echo "index_html=$(sha256sum docs/index.html | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
           echo "feed_xml=$(sha256sum docs/feed.xml | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
           echo "events_ics=$(sha256sum docs/events.ics | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
@@ -157,6 +160,48 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Confirm generated commit is still current
+        timeout-minutes: 1
+        env:
+          GENERATED_SHA: ${{ needs.build.outputs.generated_sha }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          from urllib.error import HTTPError, URLError
+          from urllib.request import Request, urlopen
+          import json
+          import os
+
+          generated_sha = os.environ["GENERATED_SHA"]
+          if not generated_sha:
+              raise SystemExit("Missing generated commit SHA; refusing to publish.")
+
+          request = Request(
+              f"{os.environ['GITHUB_API_URL']}/repos/"
+              f"{os.environ['GITHUB_REPOSITORY']}/git/ref/heads/main",
+              headers={
+                  "Accept": "application/vnd.github+json",
+                  "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                  "X-GitHub-Api-Version": "2022-11-28",
+                  "Cache-Control": "no-cache",
+              },
+          )
+          try:
+              with urlopen(request, timeout=20) as response:
+                  current_sha = json.load(response)["object"]["sha"]
+          except (HTTPError, URLError, TimeoutError, ConnectionError,
+                  KeyError, TypeError, ValueError) as error:
+              raise SystemExit(f"Cannot confirm the current main commit: {error}")
+
+          if current_sha != generated_sha:
+              raise SystemExit(
+                  f"Refusing to publish superseded commit {generated_sha}; "
+                  f"main is now {current_sha}. Run the full feed workflow again "
+                  "to generate and publish the current files."
+              )
+          print(f"Generated commit {generated_sha} is still current; publishing.")
+          PY
+
       - name: Publish website
         id: deployment
         uses: actions/deploy-pages@v4
