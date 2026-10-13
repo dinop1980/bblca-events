@@ -19012,6 +19012,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:4385e409-d58d-5448-bdf2-39c9b0f37b95
+DTSTAMP:20261013T224421Z
+LAST-MODIFIED:20261013T224421Z
+SEQUENCE:0
+DTSTART:20261022T223000Z
+DTEND:20261022T233000Z
+SUMMARY:AD-HOC Tree & Shrub Committee
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:a16684ee-3b3c-5620-a88e-32fc821396cb
 DTSTAMP:20261001T055253Z
 LAST-MODIFIED:20261001T055253Z
@@ -19511,6 +19523,18 @@ SEQUENCE:0
 DTSTART:20261105T150000Z
 DTEND:20261105T160000Z
 SUMMARY:Line Dancing
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:639d1969-ce89-5208-936b-1e76ee85dfe1
+DTSTAMP:20261013T224421Z
+LAST-MODIFIED:20261013T224421Z
+SEQUENCE:0
+DTSTART:20261105T233000Z
+DTEND:20261106T003000Z
+SUMMARY:AD-HOC Tree & Shrub Committee
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/

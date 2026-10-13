@@ -16348,5 +16348,25 @@
     "fingerprint": "271fc9b3ad890220a84de5fed78f28fafadf5c3a48a7a061a1c5f022a360bb17",
     "published": "2026-10-01T12:48:06.293749-04:00",
     "sequence": 0
+  },
+  "833_0": {
+    "event": {
+      "end": "2026-10-22T19:30:00-04:00",
+      "start": "2026-10-22T18:30:00-04:00",
+      "title": "AD-HOC Tree & Shrub Committee"
+    },
+    "fingerprint": "b1b54bb10f7c222925e8196118bc86e0a53b180c5e47e01ffc774e02651f5346",
+    "published": "2026-10-13T18:44:21-04:00",
+    "sequence": 0
+  },
+  "833_1": {
+    "event": {
+      "end": "2026-11-05T19:30:00-05:00",
+      "start": "2026-11-05T18:30:00-05:00",
+      "title": "AD-HOC Tree & Shrub Committee"
+    },
+    "fingerprint": "21d65a31a62f3998f4413a51b0eda68c911ab5edb3e1c86fa801fcf9e1512c44",
+    "published": "2026-10-13T18:44:21-04:00",
+    "sequence": 0
   }
 }
