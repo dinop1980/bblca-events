@@ -10,6 +10,7 @@ on:
       - "make_feed.py"
       - "cinc_history.py"
       - "test_history.py"
+      - "test_feed_retries.py"
   workflow_dispatch:
   schedule:
     - cron: '17 */6 * * *'
@@ -62,19 +63,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          confirm_main_current() {
+            python -c 'import sys; from make_feed import ensure_main_current; ensure_main_current(sys.argv[1])' "$expected_main_sha"
+          }
+
           for attempt in 1 2 3 4 5; do
             echo "Update attempt $attempt"
 
             # Begin each attempt with the latest version of main.
             git fetch origin main
             git checkout -B main origin/main
+            expected_main_sha=$(git rev-parse HEAD)
 
             # Use one Eastern timestamp for the feed build and the displayed refresh time.
             refreshed_at=$(TZ=America/New_York date +"%Y-%m-%dT%H:%M:%S%:z")
 
             # Generate the newest feeds and save the same data at the repository root
             # and in docs, which GitHub Pages publishes.
-            python make_feed.py --now "$refreshed_at"
+            python make_feed.py --now "$refreshed_at" --expected-main-sha "$expected_main_sha"
 
             # Record the successful refresh in the tracked source page.
             python - "$refreshed_at" <<'PY'
@@ -110,6 +116,8 @@ jobs:
               break
             fi
 
+            # Refuse to commit work that became superseded during generation.
+            confirm_main_current
             git commit -m "Update BBLCA events"
 
             # Finish if the push succeeds.
@@ -118,7 +126,9 @@ jobs:
               break
             fi
 
-            echo "Another run updated the repository. Retrying..."
+            # A non-fast-forward rejection must stop this run, not regenerate again.
+            confirm_main_current
+            echo "Push failed while main is unchanged. Retrying..."
             if [ "$attempt" -eq 5 ]; then
               echo "Unable to save after five attempts."
               exit 1

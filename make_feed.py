@@ -6,6 +6,7 @@ import hashlib
 import html
 import json
 import re
+import subprocess
 import time
 from datetime import date, datetime, timedelta, timezone
 from email.utils import format_datetime
@@ -20,6 +21,7 @@ from zoneinfo import ZoneInfo
 CALENDAR_URL = "https://bblca.cincwebaxis.com/bblca/calendar/"
 FETCH_ATTEMPTS = 6
 FETCH_RETRY_SECONDS = 10 * 60
+MAIN_CHECK_SECONDS = 30
 RETRYABLE_HTTP_STATUS = {404, 408, 429}
 EASTERN = ZoneInfo("America/New_York")
 APPOINTMENT = re.compile(
@@ -33,12 +35,38 @@ HISTORY_START = date(2025, 9, 1)
 HISTORY_MARKER = Path("history_backfill.json")
 
 
+class SupersededRunError(RuntimeError):
+    """The main branch advanced while this build was working."""
+
+
+def ensure_main_current(expected_sha):
+    """Stop work when origin/main changed or its head cannot be confirmed."""
+    try:
+        result = subprocess.run(
+            ["git", "ls-remote", "--exit-code", "origin", "refs/heads/main"],
+            check=True, capture_output=True, text=True, timeout=20,
+        )
+    except (OSError, subprocess.SubprocessError):
+        raise RuntimeError("Cannot confirm origin/main; refusing to continue.") from None
+
+    fields = result.stdout.split()
+    if len(fields) != 2 or fields[1] != "refs/heads/main":
+        raise RuntimeError("Cannot confirm origin/main; refusing to continue.")
+    current_sha = fields[0]
+    if current_sha != expected_sha:
+        raise SupersededRunError(
+            f"Stopping superseded build based on {expected_sha}; "
+            f"origin/main is now {current_sha}."
+        )
+
+
 def fetch_calendar_page(
     url=CALENDAR_URL,
     attempts=FETCH_ATTEMPTS,
     retry_seconds=FETCH_RETRY_SECONDS,
     opener=urlopen,
     sleeper=time.sleep,
+    safety_check=None,
 ):
     """Fetch the public calendar, retrying temporary availability failures."""
     if attempts < 1:
@@ -48,9 +76,11 @@ def fetch_calendar_page(
         "User-Agent": "Mozilla/5.0 (compatible; BBLCAEventsRSS/1.0)"
     })
     for attempt in range(1, attempts + 1):
+        if safety_check:
+            safety_check()
         try:
             with opener(request, timeout=35) as response:
-                return response.read().decode("utf-8")
+                page = response.read().decode("utf-8")
         except HTTPError as error:
             retryable = (
                 error.code in RETRYABLE_HTTP_STATUS
@@ -63,13 +93,25 @@ def fetch_calendar_page(
             if attempt == attempts:
                 raise
             failure = str(getattr(error, "reason", error))
+        else:
+            if safety_check:
+                safety_check()
+            return page
 
         print(
             f"Calendar request failed ({failure}) on attempt {attempt}/{attempts}; "
             f"retrying in {retry_seconds // 60} minutes...",
             flush=True,
         )
-        sleeper(retry_seconds)
+        if safety_check:
+            remaining = retry_seconds
+            while remaining > 0:
+                interval = min(MAIN_CHECK_SECONDS, remaining)
+                sleeper(interval)
+                safety_check()
+                remaining -= interval
+        else:
+            sleeper(retry_seconds)
 
     raise RuntimeError("Calendar fetch retry loop ended unexpectedly")
 
@@ -278,6 +320,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, help="Use a saved HTML page for local checks")
     parser.add_argument(
+        "--expected-main-sha",
+        help="Stop fetching or saving if origin/main advances beyond this commit",
+    )
+    parser.add_argument(
         "--now",
         help="Use this ISO 8601 timestamp for the build (defaults to the current Eastern time)",
     )
@@ -300,10 +346,16 @@ def main():
     )
     args = parser.parse_args()
 
+    safety_check = (
+        (lambda: ensure_main_current(args.expected_main_sha))
+        if args.expected_main_sha else None
+    )
     if args.input:
+        if safety_check:
+            safety_check()
         page = args.input.read_text(encoding="utf-8")
     else:
-        page = fetch_calendar_page()
+        page = fetch_calendar_page(safety_check=safety_check)
 
     events = parse_events(page)
     exclusions = tuple(term.casefold() for term in args.exclude_title)
@@ -338,6 +390,8 @@ def main():
         calendar_name="Big Bass Lake Committee and Board Meetings",
         uid_scope="committee-board-meetings",
     )
+    if safety_check:
+        safety_check()
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.ics_output.parent.mkdir(parents=True, exist_ok=True)
     args.meetings_ics_output.parent.mkdir(parents=True, exist_ok=True)
