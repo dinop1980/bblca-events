@@ -19588,6 +19588,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:f9f086f0-46b2-5370-91ce-ad5b0b7e0284
+DTSTAMP:20261029T215737Z
+LAST-MODIFIED:20261029T215737Z
+SEQUENCE:0
+DTSTART:20261106T150000Z
+DTEND:20261106T160000Z
+SUMMARY:ARC Working Session
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:04811e53-a3ec-5302-8bfd-df37b0de1215
 DTSTAMP:20261001T055253Z
 LAST-MODIFIED:20261001T055253Z
