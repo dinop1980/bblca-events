@@ -1227,4 +1227,64 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:fe21c2bb-ab1b-5e47-9cd0-11ba0f815ffb
+DTSTAMP:20261101T060314Z
+LAST-MODIFIED:20261101T060314Z
+SEQUENCE:0
+DTSTART:20261114T150000Z
+DTEND:20261114T160000Z
+SUMMARY:ELM Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:37e24ecc-f9e7-546b-ad86-1ff5661f583a
+DTSTAMP:20261101T060314Z
+LAST-MODIFIED:20261101T060314Z
+SEQUENCE:0
+DTSTART:20261121T140000Z
+DTEND:20261121T170000Z
+SUMMARY:Board of Director's Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:85e79776-fc62-596b-9307-586b1e106d79
+DTSTAMP:20261101T060314Z
+LAST-MODIFIED:20261101T060314Z
+SEQUENCE:0
+DTSTART:20261128T160000Z
+DTEND:20261128T170000Z
+SUMMARY:Recreation Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:69a2a6e8-ba78-5277-b6ef-ca86b6e10213
+DTSTAMP:20261101T060314Z
+LAST-MODIFIED:20261101T060314Z
+SEQUENCE:0
+DTSTART:20261203T000000Z
+DTEND:20261203T010000Z
+SUMMARY:Strategic Planning Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:84f8c5b4-77ba-53d8-bd18-f24d11d73038
+DTSTAMP:20261101T060314Z
+LAST-MODIFIED:20261101T060314Z
+SEQUENCE:0
+DTSTART:20261205T140000Z
+DTEND:20261205T150000Z
+SUMMARY:ARC Committee Meeting
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
 END:VCALENDAR
