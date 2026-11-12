@@ -20596,6 +20596,18 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:urn:uuid:693bf507-c4ee-5221-a903-73cb35cce198
+DTSTAMP:20261112T070904Z
+LAST-MODIFIED:20261112T070904Z
+SEQUENCE:0
+DTSTART:20261204T173000Z
+DTEND:20261204T220000Z
+SUMMARY:Community Blood Drive
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:uuid:8ceeb62b-e2c1-5226-941c-3b6d04d98698
 DTSTAMP:20261101T060314Z
 LAST-MODIFIED:20261101T060314Z
