@@ -17301,13 +17301,13 @@
   },
   "828": {
     "event": {
-      "end": "2026-12-12T19:00:00-05:00",
-      "start": "2026-12-12T12:00:00-05:00",
-      "title": "Christmas Event"
+      "end": "2026-12-12T18:15:00-05:00",
+      "start": "2026-12-12T16:00:00-05:00",
+      "title": "Tree Lighting"
     },
-    "fingerprint": "063e9a74e78c583f32999f659e59afa0d48a449a4825dee73c0d323677f744c8",
-    "published": "2026-11-01T01:03:14-05:00",
-    "sequence": 0
+    "fingerprint": "f36a9fd6aa0cbb7200eb18059d703bf6104f86d7079e6e007e16c0ec1a61db80",
+    "published": "2026-11-19T13:57:36-05:00",
+    "sequence": 1
   },
   "829": {
     "event": {
@@ -17417,6 +17417,16 @@
     },
     "fingerprint": "968dcb57bbbeef0a6d65cd97bde65a87dbe8c2f37be71a68c0d2eaac2adbd26c",
     "published": "2026-11-12T02:09:04-05:00",
+    "sequence": 0
+  },
+  "839": {
+    "event": {
+      "end": "2026-12-12T14:00:00-05:00",
+      "start": "2026-12-12T12:00:00-05:00",
+      "title": "Brunch with Santa"
+    },
+    "fingerprint": "a6577cc4706f8bd09dc03abf19d12dba848e1744f7168ac231b7f5835be11488",
+    "published": "2026-11-19T13:57:36-05:00",
     "sequence": 0
   }
 }

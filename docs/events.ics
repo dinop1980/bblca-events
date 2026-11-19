@@ -20896,13 +20896,25 @@ DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
 URL:https://bblca.cincwebaxis.com/bblca/calendar/
 END:VEVENT
 BEGIN:VEVENT
-UID:urn:uuid:60ba9f79-2179-510d-8d96-db850c281f51
-DTSTAMP:20261101T060314Z
-LAST-MODIFIED:20261101T060314Z
+UID:urn:uuid:6e40566a-9bdf-54ab-836f-adc908096d10
+DTSTAMP:20261119T185736Z
+LAST-MODIFIED:20261119T185736Z
 SEQUENCE:0
 DTSTART:20261212T170000Z
-DTEND:20261213T000000Z
-SUMMARY:Christmas Event
+DTEND:20261212T190000Z
+SUMMARY:Brunch with Santa
+DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
+ ebaxis.com/bblca/calendar/
+URL:https://bblca.cincwebaxis.com/bblca/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:uuid:60ba9f79-2179-510d-8d96-db850c281f51
+DTSTAMP:20261119T185736Z
+LAST-MODIFIED:20261119T185736Z
+SEQUENCE:1
+DTSTART:20261212T210000Z
+DTEND:20261212T231500Z
+SUMMARY:Tree Lighting
 DESCRIPTION:See the BBLCA calendar for current details: https://bblca.cincw
  ebaxis.com/bblca/calendar/
 URL:https://bblca.cincwebaxis.com/bblca/calendar/

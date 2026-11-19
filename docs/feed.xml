@@ -5,7 +5,7 @@
     <link>https://bblca.cincwebaxis.com/bblca/calendar/</link>
     <description>Events from the public BBLCA calendar, including past events observed since archive retention began.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 02:23:56 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:57:36 -0500</lastBuildDate>
     <item>
       <title>Sep 1, 2025: Tennis Round Robin</title>
       <link>https://bblca.cincwebaxis.com/bblca/calendar/</link>
@@ -12194,11 +12194,18 @@
       <pubDate>Sun, 01 Nov 2026 01:03:14 -0500</pubDate>
     </item>
     <item>
-      <title>Dec 12, 2026: Christmas Event</title>
+      <title>Dec 12, 2026: Brunch with Santa</title>
       <link>https://bblca.cincwebaxis.com/bblca/calendar/</link>
-      <description>Saturday, December 12, 2026, 12:00 PM to 7:00 PM Eastern time</description>
+      <description>Saturday, December 12, 2026, 12:00 PM to 2:00 PM Eastern time</description>
+      <guid isPermaLink="false">bblca-calendar-event:839</guid>
+      <pubDate>Thu, 19 Nov 2026 13:57:36 -0500</pubDate>
+    </item>
+    <item>
+      <title>Dec 12, 2026: Tree Lighting</title>
+      <link>https://bblca.cincwebaxis.com/bblca/calendar/</link>
+      <description>Saturday, December 12, 2026, 4:00 PM to 6:15 PM Eastern time</description>
       <guid isPermaLink="false">bblca-calendar-event:828</guid>
-      <pubDate>Sun, 01 Nov 2026 01:03:14 -0500</pubDate>
+      <pubDate>Thu, 19 Nov 2026 13:57:36 -0500</pubDate>
     </item>
   </channel>
 </rss>
